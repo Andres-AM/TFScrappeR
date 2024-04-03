@@ -1,0 +1,46 @@
+---
+title: "Ollama"
+format: html
+editor: visual
+---
+
+## Llama
+
+**LLaMA** (**Large Language Model Meta AI**) is a family of autoregressive [large language models](https://en.wikipedia.org/wiki/Large_language_model "Large language model") (LLMs), released by [Meta AI](https://en.wikipedia.org/wiki/Meta_AI "Meta AI") starting in February 2023.
+
+Trainning models takes years,
+
+## Understanding Ollama
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+
+source("../libraries.R")
+
+```
+
+```{r}
+
+
+library(rollama)
+
+show_model() 
+
+# %>% 
+#   kable()
+
+
+
+```
+
+## Query
+
+```{r}
+rollama::query("")
+
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
