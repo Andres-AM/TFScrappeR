@@ -10,6 +10,7 @@ get_url_day <- function(date_start = date_start , date_end = today()) {
   date_bis <- date %>% str_remove_all("-")
   
   url <- paste("https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index_aza.php?date=",date_bis,"&lang=fr&mode=news",sep = "")
+  # home_page <- "https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index_aza.php?lang=fr&mode=index"
   
   table <- tibble(date = date,url = url )
   
@@ -56,7 +57,7 @@ get_url_decision <- function(i = i, per_day_url = per_day_url, delay = delay) {
       bind_cols(type = type) %>% 
       select(publication,date,reference,type,url)
     
-    Sys.sleep(delay)
+    # Sys.sleep(delay)
     
     return(df_temp)
 
@@ -81,10 +82,41 @@ get_text_decision <- function(i = i,url_decision = url_decision,user_agent = use
   decision_table_temp <- decision_table_temp %>% 
     mutate(decision = decision[1])
   
-  Sys.sleep(delay)
+  # Sys.sleep(delay)
   
   return(decision_table_temp)
   
 }
-# "https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://12-12-2022-9F_19-2022&lang=fr&zoom=&type=show_document"
-# "https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://12-12-2022-9F_19-2022&lang=fr&zoom=&type=show_document"
+
+## Wrapper
+get_TF_decision <- function(date_start = date_start, date_end = date_end, delay = delay, mc.cores = mc.cores) {
+  
+  ## Step 1, obtaining the URL for the list of decisions for the chosen days
+  per_day_url <- get_url_day(date_start = date_start,date_end = date_end)
+  
+  url_decision <-  
+    pbmclapply(         
+      1:nrow(per_day_url),         ### .x
+      get_url_decision,            ### FUN
+      per_day_url = per_day_url,
+      mc.cores = mc.cores,
+      delay = delay
+    ) %>% 
+    map_dfr(~ .x)
+  
+  ## Step 2, retrieving the decisions from the decision list and consolidating them into a table
+  decision_table <-  
+    pbmclapply(         
+      1:nrow(url_decision),           ### .x
+      get_text_decision,              ### FUN
+      url_decision = url_decision,
+      mc.cores = mc.cores,
+      delay = delay
+    ) %>% 
+    map_dfr(~ .x)
+  
+  results <- list(url_decision = url_decision, decision_table = decision_table)
+  
+  return(results)
+  
+}

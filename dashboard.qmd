@@ -1,12 +1,34 @@
 ---
-title: "dashboard"
-format: html
+title: "my dashboard"
+format:
+  dashboard:
+    orientation: rows
 editor: visual
 ---
 
+# Page 1
 
 ```{r}
-1 + 1
+plot(cars)
 ```
 
--
+## Row
+
+```{r}
+#| title: title
+plot(mtcars)
+
+```
+
+## Row
+
+```{r}
+#| component: valuebox
+list(
+  title="my value",
+  value = 24,
+  color = "red",
+  icon = "envelope"
+)
+
+```
