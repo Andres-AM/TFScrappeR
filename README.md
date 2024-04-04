@@ -1,5 +1,5 @@
 
-## Web scrapping the Swiss Federal Tribunal case law using R
+## Web scrapping the Swiss Federal Tribunal case laws using R
 
 This web scraping tool is designed to retrieve the most recent case laws from the Swiss Federal Tribunal. It operates by parsing the content available at the specified website URL: https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index_aza.php?lang=fr&mode=index&search=false. It then organizes the extracted decisions, along with their corresponding texts, into a convenient table format.
 
