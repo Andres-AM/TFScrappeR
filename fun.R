@@ -24,8 +24,10 @@ get_url_decision <- function(i = i, per_day_url = per_day_url, delay = delay) {
   
   url <- per_day_url$url[[i]]
   
-  document <- rvest::read_html(url)
+  session <- polite::bow(url,delay = delay,force = T) 
   
+  document <- polite::scrape(session)
+
   if(length(document) != 2){df_temp <- tibble(date = date) ;return(df_temp)}
 
     document_temp <- 
@@ -66,7 +68,10 @@ get_text_decision <- function(i = i,url_decision = url_decision,user_agent = use
   
   if(is.na(decision_table_temp$url)){decision_table_temp <- tibble(date = decision_table_temp$date) ;return(decision_table_temp)}
   
-  decision_temp <- rvest::read_html(decision_table_temp$url)
+  session <- polite::bow(decision_table_temp$url,delay = delay,force = T) 
+  decision_temp <- polite::scrape(session)
+  
+  # decision_temp <- rvest::read_html(decision_table_temp$url)
   
   decision <-
     decision_temp %>% 
