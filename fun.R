@@ -6,8 +6,9 @@ get_TF_decision <- function(date_start = date_start, date_end = date_end,
                             mc.cores = mc.cores){
   
   ## Step 1, obtaining the URL for the list of decisions for the chosen days
-  per_day_url <- get_url_day(date_start = date_start,date_end = date_end)
+  per_day_url <- get_url_day(date_start = date_start, date_end = date_end)
   
+  # browser()
   url_decision_raw <-  
     pbmclapply(         
       1:nrow(per_day_url),         ### .x
@@ -27,18 +28,16 @@ get_TF_decision <- function(date_start = date_start, date_end = date_end,
     filter(publication %in% c(publication_filter))
   
   
-  ### Necessary???
+  ### If no decision, because of filter 
   if(nrow(url_decision) == 0){ 
     
-    url_decision <- per_day_url %>% bind_cols( log = "no valid page")
-    results <- list(url_decision = url_decision, decision_table = url_decision)
+    url_decision <- per_day_url %>% bind_cols( log = "no valid page, no decision?")
+    results <- list(recap_table= recap_table, decision_table = url_decision, url_decision = url_decision )
     return(results)
     
   }
   
-  # browser()
   ## Step 2, retrieving the decisions from the decision list and consolidating them into a table
-  # browser()
   decision_table <-  
     pbmclapply(         
       1:nrow(url_decision),           ### .x
@@ -58,7 +57,11 @@ get_TF_decision <- function(date_start = date_start, date_end = date_end,
 ### Extracting urls 
 get_url_day <- function(date_start = date_start , date_end = today()) {
   
-  date <- seq(date(date_start), date(date_end), by ="1 day") 
+  # date <- seq(lubridate::date(date_start), 
+  #             lubridate::date(date_end), by ="1 day") 
+  # 
+  date <- seq(date(date_start), 
+              date(date_end), by ="1 day") 
   
   date_vector <- date %>% str_remove_all("-")
   
@@ -100,7 +103,7 @@ get_url_decision <- function(i = i, per_day_url = per_day_url, delay = delay){
     html_text2()
   
   df_temp <-
-    tibble(reference= reference, url= df$url, date = df$date,log = "valid page")   %>%
+    tibble(reference= reference, url= url, date = df$date,log = "valid page")   %>%
     filter(!reference %in% c("","Back","jour précédent","jour suivant","retour à la liste")) %>%
     mutate( type = type,publication = str_detect(type,"\\*"), ) %>%
     select(publication,date,reference,type,log,url)
@@ -116,7 +119,7 @@ get_url_decision <- function(i = i, per_day_url = per_day_url, delay = delay){
 get_text_decision <- function(i = i,url_decision = url_decision,user_agent = user_agent,delay = delay){
   
   decision_table_temp <- url_decision[i,]
-  
+
   if(is.na(decision_table_temp$url)){decision_table_temp <- tibble(date = decision_table_temp$date, log ="valid page, no decision") ;return(decision_table_temp)}
   
   session <- polite::bow(decision_table_temp$url,delay = delay,force = T) 
