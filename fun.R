@@ -10,11 +10,12 @@ get_TF_decision <- function(date_start = date_start, date_end = date_end,
   
   # browser()
   url_decision_raw <-  
-    pbmclapply(         
+    # pbmclapply(         
+      lapply(
       1:nrow(per_day_url),         ### .x
       get_url_decision,            ### FUN
       per_day_url = per_day_url,
-      mc.cores = mc.cores,
+      # mc.cores = mc.cores,
       delay = delay
     ) %>% 
     map_dfr(~ .x) 
@@ -39,11 +40,12 @@ get_TF_decision <- function(date_start = date_start, date_end = date_end,
   
   ## Step 2, retrieving the decisions from the decision list and consolidating them into a table
   decision_table <-  
-    pbmclapply(         
+    # pbmclapply(  
+      lapply(
       1:nrow(url_decision),           ### .x
       get_text_decision,              ### FUN
       url_decision = url_decision,
-      mc.cores = mc.cores,
+      # mc.cores = mc.cores,
       delay = delay
     ) %>% 
     map_dfr(~ .x)

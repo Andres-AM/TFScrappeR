@@ -1,0 +1,12 @@
+name: TFScrappeR
+title: TFScrappeR
+username: andres-am
+account: andres-am
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 11728036
+bundleId: 8479820
+url: https://andres-am.shinyapps.io/TFScrappeR/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
