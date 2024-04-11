@@ -10,6 +10,7 @@ Link for an interactive version:   [TFScrapper](https://andres-am.shinyapps.io/T
 
 ![Alt text](preview.png)
 
+
 ## Dependencies
 
 This project relies on the following R packages:
