@@ -5,13 +5,14 @@ get_TF_decision <- function(date_start = date_start, date_end = date_end,
                             delay = delay, 
                             mc.cores = mc.cores){
   
+  cat("Loading...")  
+  
   ## Step 1, obtaining the URL for the list of decisions for the chosen days
   per_day_url <- get_url_day(date_start = date_start, date_end = date_end)
   
-  # browser()
   url_decision_raw <-  
     # pbmclapply(         
-      lapply(
+    lapply(
       1:nrow(per_day_url),         ### .x
       get_url_decision,            ### FUN
       per_day_url = per_day_url,
@@ -41,7 +42,7 @@ get_TF_decision <- function(date_start = date_start, date_end = date_end,
   ## Step 2, retrieving the decisions from the decision list and consolidating them into a table
   decision_table <-  
     # pbmclapply(  
-      lapply(
+    lapply(
       1:nrow(url_decision),           ### .x
       get_text_decision,              ### FUN
       url_decision = url_decision,
@@ -76,7 +77,7 @@ get_url_day <- function(date_start = date_start , date_end = today()) {
 }
 
 get_url_decision <- function(i = i, per_day_url = per_day_url, delay = delay){
-
+  
   df <- per_day_url[i,]
   
   session <- polite::bow(df$url,delay = delay,force = T) 
@@ -121,7 +122,7 @@ get_url_decision <- function(i = i, per_day_url = per_day_url, delay = delay){
 get_text_decision <- function(i = i,url_decision = url_decision,user_agent = user_agent,delay = delay){
   
   decision_table_temp <- url_decision[i,]
-
+  
   if(is.na(decision_table_temp$url)){decision_table_temp <- tibble(date = decision_table_temp$date, log ="valid page, no decision") ;return(decision_table_temp)}
   
   session <- polite::bow(decision_table_temp$url,delay = delay,force = T) 
