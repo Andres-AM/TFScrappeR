@@ -28,7 +28,7 @@ ui <- dashboardPage(skin = "red",
       
       
       box(
-        h2("Select Menu"),
+        h2("Reference menu:"),
         selectInput(inputId = "subcategories",
                     label = "reference",
                     choices = NULL)
