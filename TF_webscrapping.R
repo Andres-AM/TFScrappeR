@@ -6,8 +6,8 @@ source("fun.R")
 ## Function to use 
 results <- get_TF_decision(
   date_start = "2024-03-01", 
-  date_end = "2024-03-10"  ,
-  publication_filter = T,
+  date_end = "2024-03-01"  ,
+  publication_filter = F,
   delay = 5 , 
   mc.cores = 6
 )

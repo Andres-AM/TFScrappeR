@@ -1,5 +1,5 @@
 
-## Wrapper
+## function wrapper
 get_TF_decision <- function(date_start = date_start, date_end = date_end,
                             publication_filter = publication_filter, 
                             delay = delay, 
@@ -11,15 +11,14 @@ get_TF_decision <- function(date_start = date_start, date_end = date_end,
   per_day_url <- get_url_day(date_start = date_start, date_end = date_end)
   
   url_decision_raw <-  
-    # pbmclapply(         
-    lapply(
+    pbmclapply(
       1:nrow(per_day_url),         ### .x
       get_url_decision,            ### FUN
       per_day_url = per_day_url,
-      # mc.cores = mc.cores,
+      mc.cores = mc.cores,
       delay = delay
     ) %>% 
-    map_dfr(~ .x) 
+    map_dfr(~ .x)  ### bug ????
   # browser()
   
   recap_table <- url_decision_raw %>% 
@@ -41,12 +40,11 @@ get_TF_decision <- function(date_start = date_start, date_end = date_end,
   
   ## Step 2, retrieving the decisions from the decision list and consolidating them into a table
   decision_table <-  
-    # pbmclapply(  
-    lapply(
+    pbmclapply(
       1:nrow(url_decision),           ### .x
       get_text_decision,              ### FUN
       url_decision = url_decision,
-      # mc.cores = mc.cores,
+      mc.cores = mc.cores,
       delay = delay
     ) %>% 
     map_dfr(~ .x)
@@ -57,12 +55,11 @@ get_TF_decision <- function(date_start = date_start, date_end = date_end,
   
 }
 
+
+
 ### Extracting urls 
 get_url_day <- function(date_start = date_start , date_end = today()) {
   
-  # date <- seq(lubridate::date(date_start), 
-  #             lubridate::date(date_end), by ="1 day") 
-  # 
   date <- seq(date(date_start), 
               date(date_end), by ="1 day") 
   
@@ -119,7 +116,7 @@ get_url_decision <- function(i = i, per_day_url = per_day_url, delay = delay){
   
 }
 
-get_text_decision <- function(i = i,url_decision = url_decision,user_agent = user_agent,delay = delay){
+get_text_decision <- function(i = i,url_decision = url_decision,delay = delay){
   
   decision_table_temp <- url_decision[i,]
   
