@@ -6,11 +6,6 @@
 source("libraries.R")
 source("fun.R")
 
-# date_start = "2024-03-02"
-# date_end = "2024-03-02"
-# publication_filter = T
-# delay = 5
-
 date_test="2024-03-05"
 
 system.time(
