@@ -4,27 +4,31 @@
 
 
 ## function wrapper
-get_TF_decision <- function(date_start = date_start, 
-                            date_end = date_end,
+get_TF_decision <- function(date_start = date_start, date_end = date_end,
                             publication_filter = publication_filter, 
-                            delay = delay 
-                            ){
+                            delay = delay, 
+                            mc.cores = mc.cores, cl = cl){
   
-  cat("Starting...\n")  
+  cat("Loading...")  
   
   ## Step 1, obtaining the URL for the list of decisions for the chosen days
   per_day_url <- get_url_day(date_start = date_start, date_end = date_end)
   
   url_decision_raw <-  
-    map_dfr(
+    # pbmclapply(
+    # parLapply(
+    map(
       1:nrow(per_day_url),         ### .x
       get_url_decision,            ### FUN
       per_day_url = per_day_url,
+      cl = cl,
       delay = delay
-    ) 
+    ) %>%
+    map_dfr(~ .x)  ### bug ????
+  # browser()
   
   recap_table <- url_decision_raw %>% 
-    group_by(publication,date, log) %>% 
+    group_by(date, publication,log) %>% 
     count()
   
   url_decision <- url_decision_raw %>% 
@@ -34,29 +38,26 @@ get_TF_decision <- function(date_start = date_start,
   ### If no decision, because of filter 
   if(nrow(url_decision) == 0){ 
     
-    cat("No published decisions were found...\n")  
-    
-    url_decision <- per_day_url %>% bind_cols( log = "valid page, no decision after filter")
+    url_decision <- per_day_url %>% bind_cols( log = "no valid page, no decision?")
     results <- list(recap_table= recap_table, decision_table = url_decision, url_decision = url_decision )
     return(results)
     
   }
   
-  cat(paste(nrow(url_decision),"valid published decisions were found...\n"))
-  
   ## Step 2, retrieving the decisions from the decision list and consolidating them into a table
   decision_table <-  
-    map_dfr(
+    # pbmclapply(
+    # parLapply(
+    map(
       1:nrow(url_decision),           ### .x
       get_text_decision,              ### FUN
       url_decision = url_decision,
+      cl = cl,
       delay = delay
-    )  
+    ) %>% 
+    map_dfr(~ .x)
   
   results <- list(recap_table = recap_table, decision_table = decision_table, per_day_url = per_day_url)
-  
-  cat("Finished...\n")  
-  
   
   return(results)
   
@@ -152,14 +153,12 @@ get_text_decision <- function(i = i,url_decision = url_decision,delay = delay){
 
 get_summary <- function(i = i, df = df, model = "llama3",screen = F) {
   
-  df1 <- df[i,]
-  text <- df1$decision
+  text <- df$decision[i]
   
   question <- paste0("Summarize the following text:",text)
-  summary_text <- rollama::query(q = question,model = model,screen = screen)$message$content
-
-  table <- df1 %>% mutate(summary = summary_text)
   
-  return(table)
+  summary_text <- rollama::query(q = question,model = model,screen = screen)$message$content
+  
+  return(list(i = i, summary_text = summary_text))
   
 }

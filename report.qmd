@@ -1,0 +1,24 @@
+---
+title: "Report"
+format: html
+---
+
+```{r}
+#|echo: false
+#|include: false
+
+source("libraries.R")
+df <- read_delim("data/results.csv", delim = ";",show_col_types = F)
+
+```
+
+
+
+```{r}
+#| echo: false
+cat(df[1,]$summary)
+
+
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).

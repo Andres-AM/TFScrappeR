@@ -4,26 +4,13 @@ library(tidyverse)
 library(lubridate) 
 library(modelr) 
 
-## Data visualisation packages
-library(shinythemes)
-library(shinydashboard)
-library(shinyjs)
-library(rsconnect)
-library(plotly)
-library(kableExtra)
-library(knitr) 
-library(DT)
-
 ## Others 
 library(polite)
 library(rvest)
 library(pbmcapply)
-library(splines)
-library(ggrepel)
-library(paletteer)
-library(flexdashboard)
-library(reactable)
-library(formattable)
+library(parallel)
+library(rollama)
+
 
 ## Other settings 
 theme_set(theme_bw())
