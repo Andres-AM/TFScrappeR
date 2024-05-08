@@ -6,11 +6,11 @@
 source("libraries.R")
 source("fun.R")
 
-date_test="2024-03-05"
+# date_test="2024-03-05"
 
 system.time(
-  results <- get_TF_decision( date_start = date_test, 
-                              date_end = date_test,
+  results <- get_TF_decision( date_start = "2024-01-01", 
+                              date_end = "2024-01-10",
                               publication_filter = T,
                               delay = 5 
   )

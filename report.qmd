@@ -7,18 +7,32 @@ format: html
 #|echo: false
 #|include: false
 
+
 source("libraries.R")
-df <- read_delim("data/results.csv", delim = ";",show_col_types = F)
+df <- read_delim("data/240508_results.csv", delim = ";",show_col_types = F)
+
+df1 <- df %>% 
+  slice(1:10)
 
 ```
-
 
 
 ```{r}
 #| echo: false
-cat(df[1,]$summary)
+#| results: asis
+
+df2 <- df1[1,]
+
+cat(paste0("## ",df2$reference,"\n"))
+
+cat("\n ")
+
+cat(paste0("Reference: ",df2$reference,
+           "\nTopic: ",df2$type,
+           "\nDate:",df2$date,
+           "\nSummary: ",df2$summary,
+           "\n"))
 
 
 ```
 
-The `echo: false` option disables the printing of code (only output is displayed).

@@ -1,4 +1,4 @@
-date;url;publication;log;reference;type;decision
+date;url;publication;log;reference;type;decision;summary
 2024-01-03;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://29-11-2023-4A_121-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;4A_121/2023;Vertragsrecht*;"
       
  
@@ -368,7 +368,21 @@ Die Präsidentin:    Jametti 
  
 Der Gerichtsschreiber:    Gross 
 
-   "
+   ";"The text is a decision by the Swiss Federal Court (Bundesgericht) regarding a rent dispute. The court concludes that the initial rent of CHF 1'060.- per month for a two-room apartment in Zurich was not excessive and therefore valid.
+
+The court's reasoning is as follows:
+
+* The court notes that the plaintiff had argued that the initial rent was excessive, but did not provide evidence to support this claim.
+* The court rules that the burden of proof lies with the plaintiff to demonstrate that the initial rent was excessive.
+* Since the plaintiff did not provide any evidence, the court concludes that the initial rent is valid.
+
+The court also orders:
+
+* The plaintiff to pay CHF 2'000.- in court costs.
+* The defendant to pay CHF 2'500.- in compensation for the costs of the federal court proceedings.
+* The case is sent back to the cantonal court (Obergericht) to decide on the costs and compensation for the previous proceedings.
+
+Overall, the court's decision supports the initial rent and rejects the plaintiff's claim that it was excessive."
 2024-01-03;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://29-11-2023-8C_196-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;8C_196/2023;Unfallversicherung*;"
       
  
@@ -668,7 +682,13 @@ Der Präsident:    Wirthlin 
  
 Die Gerichtsschreiberin:    Durizzo 
 
-   "
+   ";"The text is a decision by the Swiss Federal Court (Bundesgericht) in an unemployment insurance case. The court ruled that:
+
+1. The appellant's claim for compensation due to a workplace accident was rejected because he did not have mandatory non-occupational accident insurance at the time of the accident.
+2. The appellant worked part-time for the Zentrum F.________, but his weekly working hours were less than 8 hours per week in most months of the year, except for March. Therefore, he did not meet the minimum working hour requirement for mandatory non-occupational accident insurance under Article 13 Abs. 1 UVV.
+3. The court rejected the appellant's argument that the Zentrum F.________ had a policy covering non-occupational accidents because this would not have made him mandatorily insured.
+
+The court therefore upheld the decision of the cantonal court and ordered the appellant to pay the costs of CHF 800.-. No compensation was awarded to either party."
 2024-01-05;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://07-11-2023-1C_327-2022&lang=fr&zoom=&type=show_document;TRUE;valid page;1C_327/2022;Ökologisches Gleichgewicht*;"
       
  
@@ -1055,7 +1075,15 @@ Der Präsident:    Kneubühler 
  
 Der Gerichtsschreiber:    Mattle 
 
-   "
+   ";"The text is a decision by the Swiss Federal Supreme Court (Bundesgericht) in two consolidated cases (1C_327/2022 and 1C_331/2022). The court rules that:
+
+1. The combined proceedings are upheld.
+2. The appeals are granted, and the lower court's decisions and the Baudirektion's (Building Department of the Canton of Zug) provision are set aside.
+3. The costs of CHF 5'000 are awarded to the respondent.
+4. The respondent is ordered to pay a total of CHF 6'000 in damages to the appellants for the federal court proceedings.
+5. The case is sent back to the lower court to re-determine the costs and damages from previous proceedings.
+
+The decision concludes that the Building Department's provision and the lower court's decisions violate Article 6(2) VBLN (Federal Law on Waste Management) and Article 10a UVPV (Federal Law on Environmental Impact Assessment), as they do not include a thorough environmental impact assessment. The court finds that the respondent's appeal is justified, and the appellants are entitled to compensation for the federal court proceedings."
 2024-01-05;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://30-11-2023-7B_215-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;7B_215/2023;Procédure pénale*;"
       
  
@@ -1326,7 +1354,13 @@ Le Président :    Abrecht 
  
 La Greffière :    Kropf 
 
-   "
+   ";"The text is a judicial decision by the Swiss Federal Tribunal regarding a criminal case. The case concerns a person who is being prosecuted for various offenses and is challenging the inclusion of certain documents in their file.
+
+The court concludes that the documents are relevant to the case, as they provide information about the defendant's past behavior and demonstrate a pattern of violent and dangerous conduct. The court notes that the defendant has been convicted of multiple crimes, including brigandage resulting in the death of a victim, and has also been found guilty of rixe (a type of fight) in 2012.
+
+The court finds that the principle of proportionality is not violated by considering the defendant's past behavior, as this information is relevant to determining their personality or dangerousness. The court also notes that the Ministry of Justice has not requested the production of all documents related to the defendant's past convictions, but rather only those that are relevant to the current case.
+
+The court ultimately rejects the defendant's appeal and orders them to pay costs in the amount of CHF 1,200."
 2024-01-11;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://07-12-2023-9C_312-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;9C_312/2023;Öffentliche Finanzen & Abgaberecht*;"
       
  
@@ -1570,7 +1604,13 @@ Der Präsident:    Parrino 
  
 Der Gerichtsschreiber:    Seiler 
 
-   "
+   ";"The text is a summary of a judgment by the Swiss Federal Court (Bundesgericht). The case involves a dispute over the application of a cantonal tax law (Handänderungssteuer) in connection with the transfer of ownership of real estate from one fund management company to another. The plaintiff, the new fund management company, argues that the tax should not be applied because it does not have ""tax-legal"" ownership of the property and the transaction was not ""entgeltlich"" (i.e., did not involve consideration).
+
+The court rejects these arguments and holds that the transfer of ownership is a taxable event under the cantonal law. The court also finds that the plaintiff's assertion of a lack of willfulness in applying the tax law is unfounded, as the transfer of ownership is a civil-law transaction that triggers the tax.
+
+Finally, the court rules that the plaintiff's appeal is unfounded and orders it to pay the costs of the federal court proceedings. The judgment also notes that no party compensation is due under the court's rules.
+
+In summary, the court upholds the decision of the cantonal court (Kantonsgericht) that the transfer of ownership of real estate from one fund management company to another triggers a taxable event under the cantonal tax law."
 2024-01-11;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://11-12-2023-9C_199-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;9C_199/2023;Erwerbersatzordnung*;"
       
  
@@ -1921,7 +1961,13 @@ Der Präsident:    Parrino 
  
 Die Gerichtsschreiberin:    Fleischanderl 
 
-   "
+   ";"The text is a summary of a court ruling by the Swiss Federal Supreme Court (Bundesgericht) regarding a case involving the Corona-Erwerbsersatz (COVID-19 compensation) and the calculation of daily allowances. The court ruled that:
+
+1. The compensation paid to the beneficiary was incorrect because it was based on separate calculations for each employer, rather than combining all income from multiple employers.
+2. As a result, the beneficiary is required to repay excess compensation received in 2020 (Fr. 5'863.35) and 2021 (Fr. 10'014.50).
+3. The court found that the calculation of daily allowances by the beneficiary's system was incorrect, but due to the principle of no reformatio in peius (no retroactive changes), the beneficiary is not required to repay more than what was previously ordered.
+
+The court also awarded costs of Fr. 500.- to the beneficiary and notified the parties involved with the decision."
 2024-01-12;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://28-11-2023-2C_1006-2022&lang=fr&zoom=&type=show_document;TRUE;valid page;2C_1006/2022;Diritto fondamentale*;"
       
  
@@ -2237,7 +2283,13 @@ La Presidente:    F. Aubry Girardin 
  
 La Cancelliera:    Ieronimo Perroud 
 
-   "
+   ";"The text is a summary of a judgment by the Swiss Federal Tribunal (Tribunale federale) in a case involving disciplinary proceedings against two lawyers (ricorrenti). The case concerns allegations that the lawyers sent unwanted newsletters to clients and non-clients, including one person who was not a client of their law firm. The newsletter contained information about their law firm's services.
+
+The Tribunal held that the lawyers' actions were not justified by any legitimate interest or purpose, and that they had failed to respect the privacy and dignity of the individuals concerned.
+
+The Tribunal also found that the sanctions imposed by the disciplinary commission (Commissione di disciplina degli avvocati) were proportionate to the offense committed. The sanction imposed was an admonition (ammonimento).
+
+The judgment concludes that the appeal is rejected, and that the lawyers must bear the costs of the proceedings (spese giudiziarie)."
 2024-01-12;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://06-12-2023-8C_103-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;8C_103/2023;Invalidenversicherung*;"
       
  
@@ -2518,7 +2570,11 @@ Der Präsident:    Wirthlin 
  
 Der Gerichtsschreiber:    Walther 
 
-   "
+   ";"The text is a judgment by the Swiss Federal Supreme Court (Bundesgericht) in a case involving an insurance claim for disability benefits. The court finds that the insured person, who has incomplete paraplegia and uses a wheelchair, is entitled to disability benefits for ""getting up"" and ""transferring"". This is because they are unable to perform these tasks without assistance from others.
+
+The court concludes that the insurance company (IV- Stelle) had sufficient information about the insured person's condition at the time of their initial application in 2017, and therefore should have investigated further into their potential need for assistance. As a result, the court orders the insurance company to pay disability benefits retroactively from October 1, 2016.
+
+The court also awards costs and fees to the parties involved and sends the case back to the previous instance (Sozialversicherungsgericht des Kantons Zürich) for further proceedings on the costs and fees."
 2024-01-15;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://15-12-2023-9C_716-2022&lang=fr&zoom=&type=show_document;TRUE;valid page;9C_716/2022;Öffentliche Finanzen & Abgaberecht*;"
       
  
@@ -2865,7 +2921,21 @@ Der Präsident:    Parrino 
  
 Der Gerichtsschreiber:    Seiler 
 
-   "
+   ";"The text is a judgment of the Swiss Federal Court (Bundesgericht) in a case related to customs law. The court analyzed the legal provisions and precedents on the topic of tax debt enforcement and statute of limitations.
+
+In summary, the court ruled that:
+
+1. The appeal is unfounded and will be rejected.
+2. The appellant will be required to pay court fees of CHF 10,000.
+3. The decision will be communicated to the parties involved and the Federal Administrative Court (Bundesverwaltungsgericht).
+
+The judgment discusses the following points:
+
+1. The customs authority can issue a decision on debt enforcement without starting a criminal investigation, which stops the statute of limitations for tax debt claims.
+2. In this case, the debt enforcement decision was issued before the statute of limitations expired, so the claim is not time-barred.
+3. The court's decision is consistent with previous judgments and customs law provisions.
+
+The judgment aims to establish clarity on the relationship between customs law and tax debt enforcement, and to promote consistency in applying the relevant laws and regulations."
 2024-01-17;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://15-12-2023-6B_953-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;6B_953/2023;Strafrecht (allgemein)*;"
       
  
@@ -3199,7 +3269,16 @@ Die Präsidentin:    Jacquemoud-Rossari 
  
 Die Gerichtsschreiberin:    Andres 
 
-   "
+   ";"The text is a decision by the Swiss Federal Court (Bundesgericht) in a criminal case involving a young adult who was sentenced to imprisonment. The court reviewed an appeal against the sentence and considered whether the youth should be transferred to a program for young adults instead of serving their prison sentence.
+
+The key points of the decision are:
+
+1. The court concluded that the conditions for transferring the youth to a program for young adults were not met, as the program was intended to rehabilitate and resocialize the individual, but this was not expected to be achieved through an ambulatory treatment during the imprisonment.
+2. The court considered expert opinions and assessments of the therapist working with the youth, which indicated that the youth's high psychopathy score and narcissistic personality traits made them less receptive to therapy.
+3. The court rejected the appeal and upheld the original sentence of imprisonment.
+4. The court granted the youth's request for free legal assistance and ordered the lawyer representing the youth to receive a compensation from the federal court.
+
+Overall, the decision indicates that while there are programs available to rehabilitate young adults, these programs require certain conditions to be met, such as a high likelihood of success and a willingness on the part of the individual to participate in the program. In this case, those conditions were not met, and the original sentence of imprisonment was upheld."
 2024-01-18;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://03-01-2024-4A_369-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;4A_369/2023;Gesellschaftsrecht*;"
       
  
@@ -3556,7 +3635,13 @@ Die Präsidentin:    Jametti 
  
 Der Gerichtsschreiber:    Stähle 
 
-   "
+   ";"The Swiss Federal Court (Bundesgericht) rules in favor of the defendant company (Beschwerdegegnerin) in a case involving the preparation of financial statements. The plaintiff (Beschwerdeführerin) had requested that the company prepare its financial statements using a recognized standard, but did so too late.
+
+The court finds that the company was not required to provide the financial statements until six months before the end of the fiscal year, and since the request was made in July 2020 for the 2020 fiscal year, it was too late. The court also notes that the company's fiscal year runs from January 1 to December 31, so the deadline would be June 30.
+
+The court therefore dismisses the plaintiff's appeal and orders her to pay the defendant company's legal costs of CHF 5,000. The plaintiff is also required to compensate the defendant company for its costs in the Federal Court proceeding in the amount of CHF 6,000.
+
+In summary, the court rules that the company was not required to provide financial statements using a recognized standard until six months before the end of the fiscal year, and since the request was made too late, it is dismissed."
 2024-01-19;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://29-11-2023-9C_449-2022&lang=fr&zoom=&type=show_document;TRUE;valid page;9C_449/2022;Berufliche Vorsorge*;"
       
  
@@ -3914,7 +3999,13 @@ Der Präsident:    Parrino 
  
 Die Gerichtsschreiberin:    Nünlist 
 
-   "
+   ";"The text is a summary of a decision by the Swiss Federal Tribunal (Bundesgericht). The case involves a dispute between an insured person (Beschwerdeführer) and an insurance company regarding the payment of invalidity benefits. The insured person had received benefits from 2016 to 2021, but then claimed that they were no longer entitled to these benefits.
+
+The Federal Tribunal upheld the decision of the cantonal court to some extent. It found that the insurance company was entitled to recover the benefits paid out between May 2016 and November 2020, as this period had passed the three-year statute of limitations. However, it rejected the insurance company's claim to recover the benefits paid out between January 2020 and November 2020, as the insured person had timely objected to the recovery on November 23, 2021.
+
+The Federal Tribunal also ruled that the interest rate for late payments should be set at 2% per annum, based on the regulations of the pension fund. It further ordered that the parties should bear their own costs and that the insured person was entitled to a reduced compensation payment.
+
+Finally, the case was remanded to the cantonal court to recalculate the compensation payment."
 2024-01-19;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://09-01-2024-9C_648-2022&lang=fr&zoom=&type=show_document;TRUE;valid page;9C_648/2022;Finances publiques & droit fiscal*;"
       
  
@@ -4233,7 +4324,15 @@ Le Président :    Parrino 
  
 Le Greffier :    Bürgisser 
 
-   "
+   ";"The Swiss Federal Tribunal has rejected a complaint filed by an individual who was not drafted into military service despite having completed his civilian service. The complainant argued that this violated his rights under the European Convention on Human Rights (ECHR) and the Swiss Constitution.
+
+The Tribunal held that the complainant had not taken any concrete steps to take advantage of the possibility of being drafted for later military service, as provided by law. Therefore, he could not claim that he was discriminated against due to his failure to fulfill his military service obligation.
+
+Furthermore, the Tribunal concluded that the complainant's argument based on a lack of need for an army did not change the outcome, since the relevant consideration is the individual's own situation and actions (or lack thereof). The complainant's claims under Articles 8 and 14 ECHR were also rejected.
+
+Finally, the Tribunal held that the complainant had not demonstrated how Articles 17 and 26 of the International Covenant on Civil and Political Rights would provide him with broader protection than the constitutional and convention provisions cited above. Therefore, his complaint based on these articles was also rejected.
+
+The Tribunal ordered the complainant to pay the costs of the proceedings (2,000 Swiss francs) and notified the parties, the Court of Justice of the Republic and Canton of Geneva, and the Federal Administration of Contributions about its decision."
 2024-01-22;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://20-12-2023-9C_597-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;9C_597/2023;Alters- und Hinterlassenenversicherung*;"
       
  
@@ -4486,7 +4585,17 @@ Der Präsident:    Parrino 
  
 Die Gerichtsschreiberin:    Fleischanderl 
 
-   "
+   ";"The text is a decision by the Swiss Federal Supreme Court (Bundesgericht) on a case involving the Swiss pension system (AHV). The court's ruling concerns the calculation of an adjustment to pensions that are temporarily suspended (Rentenzuschlag).
+
+The key points are:
+
+1. The Bundesrat (Federal Council) had introduced a new method for calculating the Rentenzuschlag, which was based on the average value of the suspended pension benefits rather than the pension benefit that would have been payable at the time of suspension.
+2. The court found that this new method was in line with the constitutional and statutory requirements, which aim to ensure that pensions are adjusted to reflect changes in living costs and income.
+3. The court rejected the plaintiff's argument that the new method was inconsistent with the constitution and statutes, as it would lead to a disproportionate increase in the value of the Rentenzuschlag over time.
+4. The court concluded that the Bundesrat had not exceeded its statutory powers in introducing the new method.
+5. As a result, the court dismissed the appeal and ordered the plaintiff to pay the costs of CHF 500.
+
+The decision was communicated to the parties involved (the pension fund, the Social Insurance Court of Zurich, and the Federal Office for Social Insurance) on December 20, 2023."
 2024-01-23;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://21-11-2023-5A_375-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;5A_375/2023;Familienrecht*;"
       
  
@@ -4782,7 +4891,13 @@ Der Präsident:    Herrmann 
  
 Der Gerichtsschreiber:    Monn 
 
-   "
+   ";"The text is a summary of a court decision by the Swiss Federal Supreme Court. The case involves a dispute between a mother (the applicant) and the Kindes- und Erwachsenenschutzbehörde (KESB, Child and Adult Protection Authority) regarding the exercise of parental rights.
+
+The court found that the KESB's intervention in the mother's exercise of her parental rights was unreasonable and disproportionate. Therefore, it upheld the mother's appeal and ordered the KESB to rescind its decision.
+
+The court also awarded the mother's lawyer, Isabelle Achermann, compensation from the Federal Court fund for her services. The case is remanded back to the lower court to determine the costs of the original proceedings.
+
+The decision was made on November 21, 2023, and was communicated to the parties involved, including the KESB, the Canton of Basel-Landschaft, and a children's and youth psychiatry clinic."
 2024-01-24;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://21-12-2023-9C_202-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;9C_202/2023;Erwerbersatzordnung*;"
       
  
@@ -5075,7 +5190,14 @@ Der Präsident:    Parrino 
  
 Die Gerichtsschreiberin:    Keel Baumann 
 
-   "
+   ";"The text is a judgment by the Swiss Federal Supreme Court (Bundesgericht) in a case involving a company that received a COVID-19 credit and later filed for bankruptcy. The court ruled that:
+
+1. The COVID-19 credit should not be considered as equity capital, but rather as debt.
+2. As such, it should be taken into account when calculating the company's financial situation and determining whether there is an ""extreme hardship"" (grosse Härte) to justify the discharge of debts.
+
+The court concluded that the company's financial situation was not satisfactory, despite the COVID-19 credit being considered as equity capital by the company. Therefore, the company did not meet the criteria for the discharge of debts and the bankruptcy proceedings should be continued.
+
+The judgment also sets out the costs for the parties involved, with the plaintiff (company) having to pay court fees and the defendant (creditor) being compensated for their court expenses."
 2024-01-25;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://20-12-2023-5A_33-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;5A_33/2023;Familienrecht*;"
       
  
@@ -5404,7 +5526,15 @@ Der Präsident:    Herrmann 
  
 Der Gerichtsschreiber:    Sieber 
 
-   "
+   ";"The text is a decision by the Swiss Federal Supreme Court (Bundesgericht) in a civil case. The court rules that:
+
+* The appeal (Beschwerde) is partially granted, with the court setting aside certain points of the lower court's decision and sending the case back to the lower court for re-decision.
+* The court rejects the rest of the appeal as unfounded.
+* Both parties are entitled to free legal assistance in the appeal process.
+* The costs of the appeal process will be split between the two parties, with a portion paid by the federal government (Bundesgerichtskasse).
+* The lawyers representing the parties will receive compensation from the federal government for their services.
+
+The court's decision is based on its interpretation of the relevant laws and regulations, as well as its consideration of the specific circumstances of the case."
 2024-01-25;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://21-12-2023-2C_694-2022&lang=fr&zoom=&type=show_document;TRUE;valid page;2C_694/2022;Finances publiques & droit fiscal*;"
       
  
@@ -5767,7 +5897,16 @@ La Présidente :    F. Aubry Girardin 
  
 Le Greffier :    E. Jeannerat 
 
-   "
+   ";"The text is a judicial decision issued by the Swiss Federal Tribunal, which rules on a appeal (recours) filed by the Republic and Canton of Neuchâtel against an earlier judgment by the Swiss Administrative Court (Tribunal administratif fédéral).
+
+In summary:
+
+* The Republic and Canton of Neuchâtel had failed to transfer a person (A.________) from Switzerland to Italy, as required under the Dublin Regulation, due to exceptional family circumstances.
+* The Federal Tribunal annulled an earlier decision by the Administrative Court that had denied any compensation to the Canton for taking care of A.________.
+* The case is sent back to the SEM (Swiss Migration Office) to calculate and pay the necessary compensation to the Canton.
+* The Federal Tribunal also sends the case back to the Administrative Court to re-examine the costs and expenses incurred by the parties in the previous proceedings.
+
+The decision notes that the SEM will bear the costs of justice, while no costs are awarded to the Republic and Canton of Neuchâtel, as they had represented themselves before the Federal Tribunal without the assistance of a lawyer."
 2024-01-30;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://18-12-2023-9C_732-2022&lang=fr&zoom=&type=show_document;TRUE;valid page;9C_732/2022;Öffentliche Finanzen & Abgaberecht*;"
       
  
@@ -6014,7 +6153,15 @@ Der Präsident:    Parrino 
  
 Die Gerichtsschreiberin:    Rupf 
 
-   "
+   ";"The text is a court decision (Urteil) by the Swiss Federal Court (Bundesgericht) regarding a tax dispute. The case involves an employer's obligation to pay half of the premiums for a health insurance plan for its employees, and whether these premiums can be considered business expenses deductible from the employee's income.
+
+The court rules that:
+
+1. The premiums paid by the employer are indeed business expenses deductible from the employee's income.
+2. The court rejects the employee's appeal against the tax assessment.
+3. The court orders the employee to pay CHF 1,000 in court fees.
+
+In summary, the court confirms that the premiums paid by the employer can be considered business expenses deductible from the employee's income, and therefore, the employee cannot deduct these premiums as business expenses."
 2024-01-30;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://11-01-2024-4A_172-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;4A_172/2023;Schiedsgerichtsbarkeit*;"
       
  
@@ -6380,7 +6527,15 @@ Die Präsidentin:    Jametti 
  
 Der Gerichtsschreiber:    Leemann 
 
-   "
+   ";"The text is a decision by the Swiss Federal Supreme Court (Bundesgericht) in a case involving an international arbitration agreement under the 1985 Investment Agreement (ISA). The court rejected a challenge to its previous decision, which held that the International Centre for Settlement of Investment Disputes (ICSID) had jurisdiction over a dispute between an investor and the People's Republic of China.
+
+The court's decision was based on Article 13(3) of the ISA, which provides that the ICSID shall have exclusive jurisdiction to decide disputes arising out of or related to an investment. The court also noted that the ISA allows for the possibility of parallel proceedings before both national courts and international arbitral tribunals.
+
+The court rejected the investor's argument that the Chinese state courts were not capable of determining whether a taking had occurred or was lawful, as Article 6(2) of the ISA provides that the investor may submit to the state courts' review the question of whether a taking has occurred or is lawful. The court also held that the ICSID's jurisdiction was not dependent on the investor's ability to pursue claims before national courts.
+
+The court further rejected the investor's argument that the ICSID had failed to provide a fair and impartial hearing, as it had provided an opportunity for the parties to present their cases and evidence. The court also noted that the ICSID's decision was based on the applicable law and the facts of the case, rather than the investor's personal circumstances.
+
+Finally, the court awarded costs and expenses to the respondent (the People's Republic of China) in the amount of CHF 250,000, which is to be borne by the applicant investors. The court also ordered that the applicants bear the costs of the Federal Supreme Court proceedings, including Fr. 200,000 for legal fees."
 2024-01-31;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://30-10-2023-7B_78-2022&lang=fr&zoom=&type=show_document;TRUE;valid page;7B_78/2022;Infractions*;"
       
  
@@ -7026,7 +7181,11 @@ Le Président :    Abrecht 
  
 Le Greffier :    Tinguely 
 
-   "
+   ";"The text is a judicial decision from the Swiss Federal Tribunal, dated October 30, 2023. The case involves a recourant who was convicted of complicity in an offense committed by his father. The recourant argues that the conviction was unlawful because it was based on an unequal quid pro quo (a favor or advantage) and that the court of appeal did not properly evaluate the evidence.
+
+The Federal Tribunal rejects the recourant's arguments, finding that the court of appeal did not violate federal law in concluding that the recourant had committed an act entering into his official activity as a public agent. The tribunal also finds that the recourant's actions constituted complicity in the offense committed by his father, and that he was aware of and accepted his role in facilitating the crime.
+
+The decision confirms the conviction and orders the recourant to pay court fees and an indemnity."
 2024-01-31;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://12-12-2023-5A_941-2022&lang=fr&zoom=&type=show_document;TRUE;valid page;5A_941/2022;Droits réels*;"
       
  
@@ -7513,7 +7672,15 @@ Le Président :    Herrmann 
  
 Le Greffier :    Piccinin 
 
-   "
+   ";"Here is a summary of the text:
+
+The Swiss Federal Tribunal ruled on a constitutional complaint and an appeal in a case involving a hotel-restaurant project. The commune had demanded that the recourante (complainant) provide information about the project and threatened to withdraw its right to superficies if the complainant did not comply.
+
+The court found that the commune's letter of March 9, 2017, was not a formal notice of breach of contract as required by Article 107 of the Swiss Civil Procedure Code. The court also held that the commune was not entitled to demand the return of its right to superficies before the start of the tourist season.
+
+The court therefore annulled the previous judgment and sent the case back to the cantonal court for a new decision in line with the arguments presented.
+
+As a result, the complainant won her appeal and the respondent (intimée) was ordered to pay the complainant's legal costs and expenses. The Tribunal also communicated its decision to the parties, the District Court of the Broye arrondissement, and the Ist Civil Court of the Canton of Fribourg."
 2024-01-31;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://05-01-2024-9C_391-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;9C_391/2023;Öffentliche Finanzen & Abgaberecht*;"
       
  
@@ -7794,7 +7961,22 @@ Der Präsident:    Parrino 
  
 Der Gerichtsschreiber:    Seiler 
 
-   "
+   ";"The text is a decision by the Swiss Federal Court (Bundesgericht) on a tax case. The court rules that the cantonal tax authority did not violate federal law or cantonal law in denying the taxpayer's request for a deduction of a payment made to the seller of a condominium unit.
+
+The key points are:
+
+1. The court applies the principle of taxation based on economic ability (Art. 8 Abs. 1 BV) and concludes that the payment made by the taxpayer does not constitute a deductible expense.
+2. The court distinguishes between the situations of the taxpayer, who paid a sum to the seller of a condominium unit, and a condominium owner who contributes to the building fund. The two situations are not comparable, as the payment made by the taxpayer did not serve to maintain the property, unlike the contribution to the building fund.
+3. The court also dismisses the taxpayer's claims based on other constitutional rights (Art. 9 BV, Art. 29 Abs. 1 BV).
+4. The court concludes that the cantonal tax law is consistent with federal law and does not violate any cantonal or municipal laws.
+5. As a result, the court rejects the appeal and orders the taxpayer to pay the court fees.
+
+The decision is summarized as follows:
+
+* The appeal is rejected in respect of direct federal tax (Art. 1 Abs. 1 lit. a Ziff. 2 ESTV-Liegenschaftskostenverordnung).
+* The appeal is rejected in respect of cantonal and municipal taxes.
+* The court fees are awarded to the taxpayer in the amount of CHF 2'500.-.
+* The decision is notified to the parties involved, including the Federal Administration of Taxes."
 2024-02-01;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://15-11-2023-1C_272-2022&lang=fr&zoom=&type=show_document;TRUE;valid page;1C_272/2022;Propriété intellectuelle, concurrence et cartels*;"
       
  
@@ -8059,7 +8241,13 @@ Le Président :    Kneubühler 
  
 Le Greffier :    Kurz 
 
-   "
+   ";"The text is a court decision by the Swiss Federal Supreme Court (Bundesgericht) in a case involving a dispute between an environmental organization and several companies. The organization had requested information from the customs authority regarding the importation of precious metals, but was denied due to the confidentiality of the information.
+
+The court rejected the organization's appeal, ruling that the request for information did not fall within the scope of the Federal Customs Act (LTrans). The court also dismissed the organization's request for legal aid, as it failed to demonstrate the financial difficulties of its members. As a result, the organization was ordered to pay the costs of the case, which were reduced due to the nature of the case and the organization's status as a public utility company.
+
+The decision notes that the organization's appeal did not comply with the requirements for legal aid, and that it failed to demonstrate the financial difficulties of its members. The court also ruled that the information requested by the organization was confidential and fell outside the scope of the Federal Customs Act.
+
+In summary, the court rejected the organization's appeal, dismissed its request for legal aid, and ordered it to pay the costs of the case."
 2024-02-01;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://05-01-2024-9C_739-2022&lang=fr&zoom=&type=show_document;TRUE;valid page;9C_739/2022;Énergie*;"
       
  
@@ -8443,7 +8631,13 @@ Le Président :    Parrino 
  
 La Greffière :    Vuadens 
 
-   "
+   ";"The text is a judgment by the Swiss Federal Tribunal (Tribunal Fédéral) in a case involving a concession agreement between a company and the Canton of Valais. The company, which had been granted a concession to harness hydroelectric power from the Navizence river, was required to pay an impôt spécial (special tax) on its water usage.
+
+The company appealed the decision by the Cantonal Court of Public Law (Cour de droit public), arguing that the impôt spécial should not be calculated based on the total water flow, but only on the actual amount of water used for electricity generation.
+
+The Federal Tribunal upheld the appeal and annulled the previous decision. It held that the construction of a new canal to divert excess water from the Navizence river did not constitute an installation within the meaning of Article 51, paragraph 3, of the Swiss Federal Law (LFH). Therefore, the impôt spécial should be calculated based only on the actual amount of water used for electricity generation, and not on the total water flow.
+
+The Tribunal also ordered the Canton of Valais to pay the company's legal costs and awarded it an indemnity. The case was remitted to the Cantonal Court for a new decision regarding the calculation of the impôt spécial."
 2024-02-01;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://19-01-2024-4A_171-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;4A_171/2023;Propriété intellectuelle, concurrence et cartels*;"
       
  
@@ -8992,7 +9186,15 @@ La Présidente :    Jametti 
  
 Le Greffier :    O. Carruzzo 
 
-   "
+   ";"The text is a summary of a court decision by the Swiss Federal Tribunal (Tribunal fédéral suisse). The case concerns a dispute between a company (the recourante) and Rolex, regarding the company's website and its use of certain products and brands. The court finds that:
+
+1. The recourante did not benefit from explicit authorization or license from Rolex, and therefore intervened independently.
+2. The court notes that the cantonal court failed to consider a series of allegations made by the recourante, which are relevant to the case because they could influence the court's evaluation of whether the recourante created an implicit form of collaboration with Rolex (co-branding) or exploited Rolex's reputation in a parasitic manner.
+3. As a result, the court finds that the recourante's grievance regarding the establishment of facts and its claim to have been denied a right to be heard are both founded.
+
+The court therefore partially admits the recourante's appeal, annuls the cantonal court's decision, and remands the case back to the cantonal court for new consideration. The court also orders that the costs be shared equally between the parties and that the expenses be compensated.
+
+The decision was rendered on January 19, 2024, by the First Civil Court of the Swiss Federal Tribunal (Ire Cour de droit civil du Tribunal fédéral suisse)."
 2024-02-02;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://08-01-2024-9F_20-2022&lang=fr&zoom=&type=show_document;TRUE;valid page;9F_20/2022;Alters- und Hinterlassenenversicherung*;"
       
  
@@ -9193,7 +9395,15 @@ Der Präsident:    Parrino 
  
 Der Gerichtsschreiber:    Nabold 
 
-   "
+   ";"The text is a judgment of the Swiss Federal Court (Bundesgericht) regarding a revision request filed by the Swiss Confederation due to a violation of the European Convention on Human Rights (EMRK). The court rules as follows:
+
+1. The revision request is not necessary in this case, as the Swiss Confederation has already indicated its willingness to pay the requested amount of CHF 63'847.-, including interest from December 2012, without the need for a revision procedure.
+2. The court does not see any reason to continue the revision process.
+3. As a result, the court decides to dismiss the revision request.
+4. The court also rejects the request for gratuitous legal assistance (unentgeltliche Rechtspflege) as it is no longer necessary.
+5. Finally, the court states that it will not impose any court fees.
+
+The judgment was delivered on January 8, 2024, and is addressed to the parties involved in the case, including the Obergericht Appenzell Ausserrhoden, the Bundesamt für Sozialversicherungen, and the Bundesamt für Justiz."
 2024-02-06;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://15-01-2024-5A_307-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;5A_307/2023;Droits réels*;"
       
  
@@ -9544,7 +9754,18 @@ Le Président :    Herrmann 
  
 La Greffière :    de Poret Bortolaso 
 
-   "
+   ";"The text is a court ruling from the Swiss Federal Tribunal, dealing with a dispute over access to a property. The ruling is in response to an appeal by a property owner who claims that their property rights were violated when a new access road was built.
+
+The main issues are:
+
+1. The order of priority for resolving conflicts between property owners, which is based on the principle of ""first come, first served"" (i.e., the property owner who has had access to the property longest).
+2. Whether it is possible to impose a time limit on this principle, and if so, how long.
+
+The ruling states that while the doctrine allows for some flexibility in applying the priority principle, there is no clear answer to the question of whether a time limit can be imposed. However, the court notes that the priority principle is intended to privilege ""natural"" solutions, rather than simply favoring the property owner who has had access longest.
+
+The ruling also discusses the concept of ""minimizing damage"" (moindre dommage), which is another factor that should be taken into account when resolving conflicts between property owners. The court finds that the recourant's claim that a new access road would cause less damage than maintaining the existing access road is not supported by evidence, and therefore their appeal is rejected.
+
+The ruling concludes by rejecting the recourant's appeal and ordering them to pay the costs of the appeal (4,000 Swiss francs) as well as an additional 200 Swiss francs in damages to the respondent."
 2024-02-06;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://19-01-2024-1C_442-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;1C_442/2023;Procédure administrative*;"
       
  
@@ -9782,7 +10003,13 @@ Le Président :    Kneubühler 
  
 La Greffière :    Rouiller 
 
-   "
+   ";"The text discusses the Swiss Federal Court's decision on a case involving the use of the National Association for the Protection of Elderly and Disabled People (NAVS) data by various authorities. The court held that:
+
+1. The NAVS data can be used systematically by certain authorities, including cantonal and communal administrations, as long as it is necessary to execute their legal tasks.
+2. The court rejected the recourant's argument that they should be treated similarly to communes, which are allowed to use the NAVS data systematically. The court held that while the recourant has a high degree of autonomy, it is not equivalent to a commune and therefore does not have the same rights to use the NAVS data.
+3. The court also rejected the recourant's argument that they should be considered as being authorized to use the NAVS data by analogy with communes.
+
+The court concluded that the recourant was not violating Article 153c of the Swiss Federal Law on Old-Age and Survivors' Insurance (LAVS) by not using the NAVS data systematically. The court therefore rejected the recourant's appeal and did not award any costs or fees."
 2024-02-08;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://19-12-2023-9C_83-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;9C_83/2023;Öffentliche Finanzen & Abgaberecht*;"
       
  
@@ -10178,7 +10405,21 @@ Der Präsident:    Parrino 
  
 Die Gerichtsschreiberin:    Rupf 
 
-   "
+   ";"The text is a judgment of the Swiss Federal Supreme Court (Bundesgericht) regarding a tax dispute. The court rules as follows:
+
+1. The appeal against the direct federal tax is rejected.
+2. The appeal against the cantonal taxes of the Canton of Zurich is also rejected.
+3. The appellants are ordered to pay the costs of the federal proceedings, amounting to CHF 8,000, in solidary liability.
+
+The court's reasoning is as follows:
+
+* The appellants' rent from the Swiss Federal Social Insurance Association (BÄV) is subject to taxation as ordinary income.
+* The court rejects the argument that Article 204 of the Direct Tax Act (DBG) should be applied to the appellants' rent, as this provision only applies to retirement benefits paid out before January 1, 1987 or after December 31, 2002.
+* The canton of Zurich's tax ordinance (StG/ZH) classifies all income from old-age, survivor's and disability insurance, as well as from vocational provident funds, as taxable income, with a 40% tax rate applying to life annuities and income from surrendering assets.
+* The court notes that the canton of Zurich has a transition provision (§ 270 Abs. 2 StG/ZH) for self-employed individuals who receive retirement benefits before January 1, 1987 or after December 31, 2002, which provides for a 4/5 tax rate on such benefits.
+* The court concludes that the appellants' rent from the BÄV is not exempt from taxation and that the transition provision in the canton of Zurich's tax ordinance does not apply to them.
+
+The judgment was rendered by the III. public-law division of the Swiss Federal Supreme Court, with President Parrino and Gerichtsschreiberin Rupf signing it."
 2024-02-09;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://18-12-2023-7B_800-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;7B_800/2023;Strafprozess*;"
       
  
@@ -10404,7 +10645,17 @@ Der Präsident:    Abrecht 
  
 Der Gerichtsschreiber:    Caprara 
 
-   "
+   ";"The text discusses the revision of a decision by the Swiss Federal Court (Bundesgericht) in cases where the European Court of Human Rights (EGMR) has found a violation of the European Convention on Human Rights (EMRK). According to Article 122 BGG, a revision can be requested if:
+
+1. The EGMR has found a violation of the EMRK.
+2. An entitlement or compensation is not sufficient to compensate for the harm caused by the violation.
+3. A revision is necessary to remedy the violation.
+
+The Federal Court will repeal its previous decision and make a new decision if it finds that the above conditions are met. If the court decides to revise a criminal sentence, Article 415 StPO applies, which provides for compensation or reparation to the accused person for their expenses in the revision process.
+
+The text also discusses the scope of the revision process and how it affects subsequent cantonal proceedings. The Federal Court will not consider non-financial damages that have already been addressed by the EGMR. Additionally, the court will only address financial damages that were not considered by the EGMR.
+
+In this specific case, the Federal Court rejected the appeal and ordered the appellant to pay court costs of CHF 3,000. The decision was communicated to the parties and the Obergericht des Kantons Zürich, II. Strafkammer."
 2024-02-12;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://03-01-2024-7B_471-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;7B_471/2023;Exécution des peines et des mesures*;"
       
  
@@ -10781,7 +11032,13 @@ Le Président :    Abrecht 
  
 La Greffière :    Rubin 
 
-   "
+   ";"The Bundesgericht (Swiss Federal Court) is ruling on a appeal by a recourant who did not speak French, the language used in the legal proceedings. The court held that the recourant had the right to assistance from a lawyer or public prosecutor due to the complexity of the case and the need for an interpreter.
+
+The court annulled the previous decision and sent the case back to the Chambre des recours pénale (Criminal Appeals Chamber) of the Tribunal cantonal du canton de Vaud, with instructions to provide assistance from a lawyer or public prosecutor. The court also awarded costs to the recourant's lawyer and ordered the Canton of Vaud to pay these costs.
+
+Additionally, the court appointed Me Mathias Micsiz as an attorney-at-law to represent the recourant in the proceedings before the Chambre des recours pénale and the Service public de l'environnement (SPEN). The court also awarded Me Micsiz a fee of 1'500 francs for his services.
+
+Finally, the court notified the parties involved, including the recourant's lawyer, the Public Prosecutor's Office of the Canton of Vaud, and the Chambre des recours pénale."
 2024-02-12;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://11-01-2024-7B_159-2022&lang=fr&zoom=&type=show_document;TRUE;valid page;7B_159/2022;Strafprozess*;"
       
  
@@ -11114,7 +11371,19 @@ Der Präsident:    Abrecht 
  
 Der Gerichtsschreiber:    Forster 
 
-   "
+   ";"The Swiss Federal Court has decided on two appeals (7B_159/2022 and 7B_160/2022) regarding the admissibility of evidence in a criminal case. The court found that:
+
+1. The Zurich Military Court (ZMG) was not competent to decide on the admissibility of evidence under Article 278 of the Swiss Criminal Procedure Code.
+2. The ZMG's decision was unlawful, but it did not cause any significant procedural harm to either party.
+3. The appeals are therefore dismissed.
+
+In addition, the court:
+
+4. Decided that no court fees will be charged for the first appeal (7B_159/2022).
+5. Awarded a fee of CHF 1,000 to the private party who filed the second appeal (7B_160/2022) and also granted the party's request for free legal assistance.
+6. Directed that this decision will be sent in writing to all parties involved and to the Obergericht des Kantons Aargau, Beschwerdekammer in Strafsachen.
+
+The decision was made by the II. strafrechtliche Abteilung (Criminal Law Division) of the Swiss Federal Court on January 11, 2024."
 2024-02-12;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://12-01-2024-5A_169-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;5A_169/2023;Schuldbetreibungs- und Konkursrecht*;"
       
  
@@ -11450,7 +11719,14 @@ Der Präsident:    Herrmann 
  
 Der Gerichtsschreiber:    Levante 
 
-   "
+   ";"The text is a decision by the Swiss Federal Supreme Court (Bundesgericht) in a case regarding bankruptcy proceedings. The court rules that:
+
+1. The appeal is rejected, as the underlying circumstances do not justify a different outcome.
+2. The date of the bankruptcy opening is set to January 12, 2024, at 3:00 PM.
+3. The appellant ( Beschwerdeführerin) is ordered to pay court fees of CHF 5,000.
+4. There will be no compensation for expenses incurred by the parties involved.
+
+The decision also notes that since the appeal has been rejected, the bankruptcy opening date has been recalculated and set to the new date mentioned above."
 2024-02-13;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://08-11-2023-5A_357-2022&lang=fr&zoom=&type=show_document;TRUE;valid page;5A_357/2022;Sachenrecht*;"
       
  
@@ -12446,7 +12722,15 @@ Der Präsident:    Herrmann 
  
 Die Gerichtsschreiberin:    Gutzwiller 
 
-   "
+   ";"The text is a judgment by the Swiss Federal Tribunal (Bundesgericht) in a case involving a dispute over procedural costs. The main points of the judgment are:
+
+1. The appellant had partially succeeded in his appeal, but the tribunal had reduced the extent of his success to half due to his failure to succeed with some of his claims.
+2. The tribunal's decision was based on Article 106 Abs. 2 ZPO, which allows for a reduction in procedural costs when an appeal is only partially successful.
+3. The appellant had argued that the tribunal had erred in its calculation of the extent of his success, but the court found no error and therefore dismissed the appeal.
+4. The tribunal also dismissed the appellant's claim for a correction to the decision due to an inconsistency between the grounds and decision.
+5. As a result, the appellant was ordered to pay the costs of Fr. 10'000.- to the other party.
+
+The judgment is dated November 8, 2023, and was signed by the President of the II. zivilrechtlichen Abteilung (Civil Division) of the Swiss Federal Tribunal."
 2024-02-13;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://12-12-2023-9C_135-2022&lang=fr&zoom=&type=show_document;TRUE;valid page;9C_135/2022;Krankenversicherung*;"
       
  
@@ -13042,7 +13326,22 @@ Der Präsident:    Parrino 
  
 Der Gerichtsschreiber:    Traub 
 
-   "
+   ";"The text is a judgment of the Swiss Federal Tribunal (Bundesgericht) regarding a dispute in social insurance law. The court rules that the appeal is partly justified and reverses the decision of the lower court, sending the case back for new consideration.
+
+The main points of the judgment are:
+
+1. The court finds that the economic efficiency test was not properly conducted by the lower court, as no index of direct handling and other costs (excluding medications) exists.
+2. To determine the reference value against which the average costs of the appellant are to be compared, the court suggests estimating the proportion of own medication expenses and subtracting this from the total reference value.
+3. The court notes that the economic efficiency test involves a regression analysis (screening) and, if the result is striking, an individual case review. However, in this case, the individual case review was not conducted, so the court finds that the decision-making basis is incomplete.
+4. The court rules that the appeal is justified and sends the case back to the lower court for new consideration.
+
+As a result of its judgment, the court orders:
+
+1. The appeal is partly upheld, and the case is sent back to the lower court for new consideration.
+2. The respondents (the parties opposing the appellant) are ordered to pay the court costs of CHF 8,000.
+3. The respondents are also ordered to pay a compensation of CHF 6,000 to the appellant for the federal tribunal's proceedings.
+
+The judgment is addressed to the parties involved, as well as to the Schiedsgericht in Sozialversicherungsstreitigkeiten des Kantons Bern (Social Insurance Dispute Court of the Canton of Bern) and the Bundesamt für Gesundheit (Federal Office of Public Health)."
 2024-02-29;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://29-01-2024-6B_1005-2021&lang=fr&zoom=&type=show_document;TRUE;valid page;6B_1005/2021;Straftaten*;"
       
  
@@ -13392,7 +13691,13 @@ Das präsidierende Mitglied:    Denys 
  
 Die Gerichtsschreiberin:    Andres 
 
-   "
+   ";"The text is a summary of a court ruling by the Swiss Federal Supreme Court. The case involves a dispute over taxes and the interpretation of evidence presented by the parties involved.
+
+The court ruled that the lower court's decision was reasonable and not flawed in its assessment of the evidence. The court found that the lower court had properly evaluated the indications that the payments made by the defendant were not as claimed, but rather taxable benefits. The court also noted that the defendant's claim that the payments were made to settle tax debts was not supported by the evidence.
+
+The court further ruled that the lower court did not commit an error in its evaluation of the evidence and therefore did not violate the principle of innocence until proven guilty. The court concluded that the defendant's appeal was unfounded and should be rejected.
+
+The ruling also stated that the defendant would bear the costs of the federal supreme court proceedings, which were set at CHF 3,000."
 2024-02-29;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://31-01-2024-4A_169-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;4A_169/2023;Droit des contrats*;"
       
  
@@ -13646,7 +13951,17 @@ La Présidente :    Jametti 
  
 Le Greffier :    Douzals 
 
-   "
+   ";"Here is a summary of the text:
+
+The Swiss Federal Tribunal rejected a complaint from an insurance company (Y- Martenet, op. cit., no 3 ad art. 7 CPC; Haas/Schulmuf, loc. cit.). The case concerned an accident insurance policy that provided a lump sum payment in the event of invalidity due to an accident.
+
+The Tribunal found that the policy did not constitute a complementary insurance policy within the meaning of Article 7 of the Swiss Civil Procedure Code (CPC), as it was designed to complement the public insurance scheme (LAMal) rather than the social security insurance (LAA).
+
+Consequently, the court ruled that Article 7 CPC was not applicable and that the cantonal court had correctly declared itself incompetent to hear the case.
+
+The complainant also argued that the President of the Social Insurance Court of the Valais Canton was not authorized to determine the competence of the cantonal court. The Tribunal rejected this argument, finding that the President's decision did not prejudice the complainant's rights and that the case had been examined with a full understanding of the law.
+
+As a result, the complaint was dismissed and the complainant was ordered to pay CHF 5,000 in costs. No costs were awarded to the other parties, as they had waived their right to do so."
 2024-03-01;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://07-02-2024-2C_196-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;2C_196/2023;Droit fondamental*;"
       
  
@@ -13984,7 +14299,23 @@ La Présidente :    F. Aubry Girardin 
  
 Le Greffier :    E. Jeannerat 
 
-   "
+   ";"The text is a judicial decision from the Swiss Federal Tribunal, which is the highest court in Switzerland. The case involves an appeal against a decision by the Canton of Vaud's Administrative Court to dismiss a corporate lawsuit filed by several professional associations.
+
+The main issues are:
+
+1. Whether the Administrative Court violated the right to a judge (Article 29a of the Swiss Constitution) by dismissing the lawsuit without giving the associations a chance to present their case.
+2. Whether the court failed to provide adequate notice and an opportunity for the associations to be heard, in violation of Article 29(2) of the Swiss Constitution.
+
+The Federal Tribunal holds that:
+
+1. The Administrative Court did not violate the right to a judge by dismissing the lawsuit without giving the associations a chance to present their case.
+2. The court's decision was based on well-established legal precedents and did not require any new information or arguments from the associations, so they were not unfairly surprised by the outcome.
+
+As a result, the Federal Tribunal:
+
+1. Rejects the appeal and confirms the Administrative Court's decision to dismiss the lawsuit.
+2. Orders the associations to pay the costs of the case (CHF 12,000) and also awards CHF 15,000 in legal fees to the opposing parties.
+3. Notifies the relevant parties, including the Canton of Vaud and its institutions, as well as the Commission for Competition (COMCO)."
 2024-03-05;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://01-02-2024-8C_333-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;8C_333/2023;Gesundheitswesen & soziale Sicherheit*;"
       
  
@@ -14321,7 +14652,17 @@ Der Präsident:    Wirthlin 
  
 Der Gerichtsschreiber:    Wüest 
 
-   "
+   ";"The text is a decision by the Swiss Federal Supreme Court (Bundesgericht) regarding a case about social assistance (Sozialhilfe). The court rules in favor of the plaintiff, who had received social assistance benefits from April 2019 to March 2022. The court finds that the Social Assistance Act (SHG) and the old-age pension law (AHV-Rente) were not violated by granting the social assistance benefits.
+
+The key points of the decision are:
+
+1. The Vorsorgeschutz (anticipatory protection) was lifted when the plaintiff decided to take early retirement, as this allowed them to access their freedom benefit to finance their living expenses from that point on.
+2. The court finds that the Social Assistance Act and the old-age pension law were not violated by granting the social assistance benefits, as the plaintiff's financial situation would have been precarious without these benefits.
+3. The court rules that the plaintiff had the right to receive social assistance benefits until they reached the age of 63, which is the maximum age for receiving AHV-Rente (old-age pension).
+4. The court rejects the argument that the plaintiff should have used their freedom benefit earlier and instead finds that the Vorsorgeschutz was more important in this case.
+5. As a result, the court upholds the social assistance benefits received by the plaintiff from April 2019 to March 2022.
+
+The decision also deals with the question of whether the plaintiff's freedom benefit could be seized (Rückerstattung) and notes that the principle of limited seizure (Grundsatz der beschränkten Pfändbarkeit) would apply. However, this issue is not further explored in the decision."
 2024-03-05;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://07-02-2024-2C_198-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;2C_198/2023;Droit de cité et droit des étrangers*;"
       
  
@@ -14747,7 +15088,16 @@ La Présidente :    F. Aubry Girardin 
  
 Le Greffier :    A. de Chambrier 
 
-   "
+   ";"The text is a judicial decision by the Swiss Federal Tribunal (Tribunal fédéral) in a case involving public interest and assistance with legal fees. Here is a summary:
+
+* The court rules that an attorney, Me Marion Pourchet, who works for a recognized public utility organization, Caritas Suisse, can be designated as a defense attorney (""avocat d'office"") to represent the applicants in their appeal.
+* The court notes that the applicants are entitled to have a lawyer representing them and that Me Pourchet is authorized to practice law in the canton of Fribourg where the case originated.
+* The court further concludes that the case relates strictly to the domain of immigration law, which is the area of expertise of Caritas Suisse's Bureau of Legal Consultation.
+* As a result, the court grants the applicants' request for assistance with legal fees and designates Me Pourchet as their defense attorney for the federal appeal process.
+* The court orders that the canton of Fribourg pay an indemnity to Me Pourchet in the amount of CHF 1'500, which will be paid by the Caisse du Tribunal fédéral (the court's financial support system).
+* The court also rules that no fees will be charged for the appeal process.
+
+Overall, the decision aims to ensure that individuals have access to legal representation and assistance in public interest cases, even if they cannot afford it themselves."
 2024-03-06;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://31-01-2024-9C_482-2022&lang=fr&zoom=&type=show_document;TRUE;valid page;9C_482/2022;Ergänzungsleistung*;"
       
  
@@ -14982,7 +15332,13 @@ Der Präsident:    Parrino 
  
 Die Gerichtsschreiberin:    Nünlist 
 
-   "
+   ";"Here is a summary of the text:
+
+The Swiss Federal Supreme Court (Bundesgericht) ruled in favor of the complainant, who had challenged a decision by the cantonal court regarding social insurance contributions. The complainant had argued that she was no longer able to support herself due to the effective payment of AHV/IV/EO minimum contributions for non-working individuals. The Bundesgericht held that the complainant's argument was valid and that the contributions should be taken into account when calculating her entitlement to supplementary benefits.
+
+The court also noted that the cantonal court had erred in excluding these contributions from consideration, as they are considered ""net"" income (Nettoeinkommen) under Swiss law. The Bundesgericht ordered the case to be sent back to the cantonal court for recalculation of the complainant's entitlement to supplementary benefits.
+
+The court also awarded costs to the complainant and ordered the opposing party to pay a fee. Finally, the court referred the matter of calculating the fees for the previous proceedings back to the Obergericht des Kantons Schaffhausen (Higher Court of the Canton of Schaffhausen)."
 2024-03-06;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://22-02-2024-2C_692-2022&lang=fr&zoom=&type=show_document;TRUE;valid page;2C_692/2022;Finances publiques & droit fiscal*;"
       
  
@@ -15313,7 +15669,13 @@ La Présidente :    F. Aubry Girardin 
  
 Le Greffier :    E. Jeannerat 
 
-   "
+   ";"The text is a court decision by the Swiss Federal Tribunal (Tribunal fédéral) regarding a dispute between the Republic and Canton of Neuchâtel and the Swiss Migration Authority (SEM).
+
+In essence, the SEM suspended the payment of certain indemnities to the Canton of Neuchâtel due to changes in asylum laws. The Canton of Neuchâtel claimed that this suspension was illegal because it did not receive a formal decision from the SEM.
+
+The court held that the SEM's decision to suspend the payments was lawful and did not require a formal decision prior to its implementation. The court noted that the Canton of Neuchâtel had no formal right to receive these indemnities in the first place, and that the SEM's suspension of payments was merely a consequence of changes in the law.
+
+As a result, the court rejected the Canton of Neuchâtel's appeal (recours) and ordered it to pay the costs of the case (fr. 3'000). The court also declined to award any damages to the SEM."
 2024-03-07;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://09-02-2024-5A_176-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;5A_176/2023;Familienrecht*;"
       
  
@@ -15688,7 +16050,17 @@ Der Präsident:    Herrmann 
  
 Der Gerichtsschreiber:    Sieber 
 
-   "
+   ";"The text is a decision by the Swiss Federal Supreme Court (Bundesgericht) in a case involving a dispute over child support. The court held that the appeal was partly justified and therefore set aside certain parts of the previous judgment. The court also awarded free legal assistance to both parties for the proceedings before the Federal Supreme Court.
+
+Specifically, the court:
+
+1. Set aside certain parts of the previous judgment and remanded the case back to the Obergericht (Cantonal Court) for a new decision on child support and costs.
+2. Granted free legal assistance to the plaintiff and the defendant for the proceedings before the Federal Supreme Court.
+3. Ordered that the court fees of CHF 4,000.- be shared equally between the parties, but provisionally paid by the federal court's fund.
+4. Decided that the parties' legal costs would be compensated.
+5. Awarded free legal assistance to Rechtsanwältin Christina Kotrba (CHF 3,000.-) and Rechtsanwalt Dr. Diego Cavegn (CHF 3,000.-).
+
+The decision was communicated to the parties and the Obergericht (Cantonal Court), II. Zivilkammer, on February 9, 2024."
 2024-03-14;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://09-02-2024-7B_209-2022&lang=fr&zoom=&type=show_document;TRUE;valid page;7B_209/2022;Straftaten*;"
       
  
@@ -16415,7 +16787,21 @@ Der Präsident:    Abrecht 
  
 Der Gerichtsschreiber:    Caprara 
 
-   "
+   ";"The text is a judgment by the Swiss Federal Supreme Court (Bundesgericht) in two related cases (7B_209/2023 and 7B_210/2023). The court rules on the appeals of two individuals (Beschwerdeführer 1 and 2) against a decision by the Bundesstrafgericht, Berufungskammer.
+
+The main issues at stake are:
+
+1. Whether the appellants supported or promoted propaganda material from terrorist organizations such as Jabhat Al-Nusra and Al-Qaïda.
+2. Whether their actions violated the freedom of opinion, media, assembly, and association guaranteed by the Swiss Constitution (Bundesverfassung).
+
+The court finds that the appellants' actions did support and promote the prohibited propaganda material, and thus violated the aforementioned freedoms.
+
+Specifically:
+
+* The court concludes that Beschwerdeführer 2's interview and speech at an event on December 5, 2015, aimed to promote a film that contained radicalizing propaganda from Jabhat Al-Nusra and Al-Qaïda.
+* The court finds that Beschwerdeführer 1 did not adequately address the concerns raised by the Bundesstrafgericht, Berufungskammer, regarding the propagandistic nature of the material in question.
+
+The court dismisses the appeals (Beschwerden) as unfounded and orders the appellants to pay the costs of the federal proceedings (Gerichtskosten)."
 2024-03-14;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://05-03-2024-7B_155-2024&lang=fr&zoom=&type=show_document;TRUE;valid page;7B_155/2024;Strafprozess*;"
       
  
@@ -16707,7 +17093,16 @@ Der Präsident:    Abrecht 
  
 Der Gerichtsschreiber:    Forster 
 
-   "
+   ";"The text is a decision by the Swiss Federal Supreme Court (Bundesgericht) regarding a criminal case. The court rejects the appeal of the defendant, who had been sentenced to imprisonment for committing serious crimes.
+
+The main points of the decision are:
+
+1. The court finds that the defendant's argument that there was no immediate threat of new crimes is not persuasive. The law (Art. 221 Abs. 1bis lit. a StPO) already considers certain crimes, including those threatening physical, psychological or sexual integrity, to be inherently dangerous.
+2. The court rejects the defendant's claim that his psychiatrist should have been allowed to testify without violating professional secrecy.
+3. The court finds that the defendant's criticism of the prosecutor's forecast of the probability of new crimes is not relevant to the appeal.
+4. The court determines that the defendant's argument about the lack of a direct threat of new crimes, as well as his other objections, are unfounded and do not violate the law.
+
+The decision concludes by rejecting the appeal and ordering the defendant to pay court costs."
 2024-03-20;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://06-03-2024-8C_166-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;8C_166/2023;Invalidenversicherung*;"
       
  
@@ -16929,7 +17324,11 @@ Der Präsident:    Wirthlin 
  
 Der Gerichtsschreiber:    Grünenfelder 
 
-   "
+   ";"The text is a decision by the Swiss Federal Supreme Court (Bundesgericht) regarding an appeal against a social security court's decision. The case involves the calculation of a person's pension benefits, specifically the ""abgestufte Rente"" (graduated pension).
+
+The court rules that the social security court should have used the 2020 Labor Force Survey (LSE) data to calculate the person's valid income and invalidity percentage. Based on this data, the court calculates the person's invalidity percentage as 50.08% and orders the social insurance office to pay the person half of their pension benefits starting from February 2022.
+
+The court also rules that the defendant (social security court) must bear the costs of CHF 800.- and that the plaintiff (person appealing the decision) is entitled to a compensation of CHF 2,800.- for the federal supreme court proceedings. The decision is written in German and was handed down on March 6, 2024."
 2024-03-20;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://07-03-2024-1C_543-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;1C_543/2023;Rechtshilfe und Auslieferung*;"
       
  
@@ -17178,7 +17577,13 @@ Der Präsident:    Kneubühler 
  
 Der Gerichtsschreiber:    Dold 
 
-   "
+   ";"The Bundesgericht (Swiss Federal Supreme Court) ruled on a case where a person's bank account was frozen as part of a cooperation agreement between Switzerland and Russia. The court considered the proportionality of the measure, which had been in place for over 8 years.
+
+The court noted that the right to property is guaranteed by Article 26 of the Swiss Constitution and that any interference with this right must be proportionate to a legitimate goal. In this case, the court found that the interests of justice, including preventing the use of criminal proceeds, outweighed the individual's interest in their frozen assets.
+
+The court rejected the argument that the measure was disproportionate due to its length, noting that similar measures have been upheld by other courts for similar periods. The court also noted that there was no evidence that the Russian criminal proceedings had not been adequately pursued.
+
+As a result, the court dismissed the appeal and sent the case back to the Bundesstrafgericht (Swiss Federal Criminal Court) for further consideration of the costs and compensation related to the appeal. The court ordered the applicant to pay the court fees and rejected claims for damages."
 2024-03-27;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://23-02-2024-2C_87-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;2C_87/2023;Droit fondamental*;"
       
  
@@ -17628,7 +18033,17 @@ La Présidente :    F. Aubry Girardin 
  
 La Greffière :    E. Kleber 
 
-   "
+   ";"The text is a judgment from the Swiss Federal Tribunal, regarding a dispute between a religious organization and the Department of Security, Population, and Health of the Canton of Geneva.
+
+The main points are:
+
+1. The Canton of Geneva has a special regime for regulating religious manifestations on public domain, which is different from other events.
+2. The organization's request to hold a baptism ceremony on a public beach was rejected because it did not meet the requirements for being admitted as an organization with official relations with the state.
+3. The Tribunal held that the rejection of the application does not violate the right to freedom of religion, as the organization is free to apply again and comply with the necessary procedures.
+4. The organization also claimed that the decision violates the principle of equal treatment (art. 8 of the Swiss Constitution), as other evangelical groups have been allowed to hold baptism ceremonies on the same beach in the past. However, the Tribunal found that these previous authorizations were granted before the current law came into effect, and that one of the subsequent authorizations was actually granted in error.
+5. The Tribunal concluded that the organization's claims are unfounded and rejected the appeal.
+
+The judgment was delivered by the Federal Tribunal on February 23, 2024."
 2024-03-28;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://22-02-2024-1C_641-2022&lang=fr&zoom=&type=show_document;TRUE;valid page;1C_641/2022;Politische Rechte*;"
       
  
@@ -17928,7 +18343,17 @@ Der Präsident:    Kneubühler 
  
 Der Gerichtsschreiber:    Mattle 
 
-   "
+   ";"The text is a judgment by the Swiss Federal Court (Bundesgericht) regarding a dispute between the Canton of Schaffhausen and an individual. The issue at hand concerns the implementation of a constitutional amendment passed through a popular initiative.
+
+In summary, the court rules that:
+
+1. The appeal is granted to the extent that it can be entertained.
+2. The decision by the Canton's Council (Kantonsrat) dated November 7, 2022, is overturned.
+3. The case is referred back to the Kantonsrat for further consideration in accordance with the court's reasoning.
+
+The court does not impose any costs on the parties involved. However, it orders the Canton of Schaffhausen to pay the appellant a compensation of CHF 2,000 for the federal court proceedings.
+
+The judgment is to be notified in writing to the parties involved: the appellant, the Regierungsrat (Canton Government), and the Kantonsrat (Canton Council)."
 2024-03-28;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://07-03-2024-8C_306-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;8C_306/2023;Arbeitslosenversicherung*;"
       
  
@@ -18156,7 +18581,17 @@ Der Präsident:    Wirthlin 
  
 Die Gerichtsschreiberin:    Berger Götz 
 
-   "
+   ";"The text is a judgment by the Swiss Federal Court (Bundesgericht) in a case involving an employment dispute. The court rules that the challenged decision was not unreasonable and did not violate any laws.
+
+The main points of the judgment are:
+
+1. The court notes that the correct assessment of whether an employer's time records are reliable is crucial for determining the validity of an employee's working hours.
+2. In this case, the employer's records were only submitted after the fact and could not be verified as authentic or reliable.
+3. Therefore, the court concludes that the employee did not have a valid claim to compensation for reduced working hours (Kurzarbeitsentschädigung).
+4. The court rejects the employee's argument that the employer failed to provide evidence of the employee's working hours in a timely manner and that this failure constitutes a breach of contract.
+5. The court rules that the decision of the lower court was reasonable and did not violate any laws.
+
+The judgment is notable for its emphasis on the importance of reliable time records and the need for employers to maintain accurate and verifiable records of employee working hours."
 2024-04-02;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://28-02-2024-2C_33-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;2C_33/2023;Gesundheitswesen & soziale Sicherheit*;"
       
  
@@ -18447,7 +18882,15 @@ Die Präsidentin:    F. Aubry Girardin 
  
 Die Gerichtsschreiberin:    A. Wortha 
 
-   "
+   ";"The text is a court decision from the Swiss Federal Tribunal (Bundesgericht) regarding the legality of an ""ordnungsbusse"" (administrative fine) imposed on a parent for not fulfilling their obligations to ensure their child attends school and complies with school rules.
+
+The court held that:
+
+1. The ordnungsbusse is a administrative measure, not a criminal sanction.
+2. It is intended to ensure the parent fulfills their educational responsibilities, rather than punishing them for a breach of public health measures (as the Epidemic Act allows).
+3. The fine has a preventive and educational purpose, aiming to ensure the parent complies with their obligations in the future.
+
+The court therefore rejected the appeal against the ordnungsbusse and ordered the appellant to pay court fees of CHF 2,000."
 2024-04-02;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://01-03-2024-2C_317-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;2C_317/2023;Droits réels*;"
       
  
@@ -18691,7 +19134,15 @@ La Présidente :    F. Aubry Girardin 
  
 La Greffière :    E. Jolidon 
 
-   "
+   ";"Here is a summary of the text:
+
+The Swiss Federal Tribunal ruled in favor of an applicant who wanted to buy a plot of land and use it for agricultural purposes. The applicant, C., had been denied permission by the Commission foncière agricole (CFA) due to doubts about his intention to personally exploit the land.
+
+The tribunal found that C.'s willingness to work on the land himself was sufficient to meet the requirements of Article 9 of the Land Development Fund Regulation (LDFR). The court also considered that C. had produced two written testimonies from experts in arboriculture, which demonstrated his knowledge and experience in this area.
+
+The tribunal annulled the previous decision by the Court of Justice of Geneva and sent the case back to the CFA for further consideration. Specifically, the CFA was asked to examine whether the other conditions for granting permission to buy the plot were met, including the price paid for the land.
+
+The court also awarded costs to the applicant and ordered that no fees be charged to the Commission foncière agricole as it did not have a vested interest in the outcome of the case."
 2024-04-02;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://06-03-2024-8C_499-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;8C_499/2023;Ergänzungsleistung*;"
       
  
@@ -18991,7 +19442,13 @@ Der Präsident:    Wirthlin 
  
 Der Gerichtsschreiber:    Wüest 
 
-   "
+   ";"The text is a court decision from the Swiss Federal Supreme Court, specifically the IV. public law division, regarding an appeal against a judgment of the St. Gallen Cantonal Court. The case involves a widow who was entitled to monthly compensation payments (Ergänzungsleistungen) due to her husband's early death and his contributions to the old-age and survivors' insurance (Vorsorge- und Hinterlassenenversicherung). The issue at hand is whether the widow's income from caring for her husband should be taken into account when calculating her entitlement to these compensation payments.
+
+The court held that the widow's income from caring for her husband should not be considered when calculating her entitlement to the compensation payments. This decision was based on the fact that the compensation payments are intended to compensate for the loss of a breadwinner, and the widow's income from caring for her husband is not directly related to this loss.
+
+The court also noted that the widow would have been entitled to compensation for her husband's care and nursing costs if these costs exceeded any surplus in their joint income. However, the court found that the lower cantonal court had incorrectly applied the relevant law (Art. 12 Abs. 1 VKB/SG) by requiring the widow to consider her husband's care and nursing costs when calculating her entitlement to compensation.
+
+As a result, the Supreme Court annulled the judgment of the St. Gallen Cantonal Court and sent the case back to the lower court for re-decision. The court also ordered the appellants (the widow and her husband) to pay the court fees (Fr. 500.-)."
 2024-04-02;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://11-03-2024-6B_271-2022&lang=fr&zoom=&type=show_document;TRUE;valid page;6B_271/2022;Infrazione*;"
       
  
@@ -19454,7 +19911,11 @@ La Presidente:    Jacquemoud-Rossari 
  
 La Cancelliera:    Ortolano Ribordy 
 
-   "
+   ";"The Bundesgericht (Swiss Federal Court) annulled a previous judgment and sent the case back to the CARP (Cantonale di Appello e Revisione Penale) for a new trial. The court ruled that the original sentence was too harsh, as it did not take into account the defendant's motivation for entering Switzerland (""alla ricerca di condizioni pensionistiche migliori"" or ""in search of better pension conditions""). The court also found that the defendant had engaged in some marginal commercial activity in Switzerland.
+
+The court ordered the defendant to pay 1'200 CHF (Swiss francs) in legal fees and awarded a reduced indemnity of 600 CHF to the opposing parties. Additionally, the court appointed an attorney (Davide Fagetti) to provide free legal assistance to one of the opposing parties.
+
+The court's decision was communicated to various parties involved, including the defendant, opposing counsel, the CARP, and a private complainant."
 2024-04-02;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://12-03-2024-9C_475-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;9C_475/2023;Öffentliche Finanzen & Abgaberecht*;"
       
  
@@ -19954,7 +20415,15 @@ Der Präsident:    Parrino 
  
 Der Gerichtsschreiber:    Kocher 
 
-   "
+   ";"The text is a decision by the Swiss Federal Court (Bundesgericht) on the taxation of foreign assets. The court rules that the value of rental income from foreign assets should be estimated at 6% of the asset's value, taking into account maintenance, operating and administrative costs.
+
+The court also notes that this estimate is based on a circular issued by the Swiss Tax Authority (ESTV) in 1969, which has since been withdrawn. However, the court considers the circular to remain relevant as it provides a practical guideline for estimating rental income from foreign assets.
+
+Additionally, the court mentions that the Canton of Schaffhausen has adopted a slightly different approach, using a multiplier of 5% based on the asset's value and deducting 10-20% for maintenance, operating and administrative costs. The court considers this approach to be within the acceptable range.
+
+The court ultimately dismisses the appeal and orders the appellants to pay the costs of the Federal Court proceedings, which they will share equally and solidarily.
+
+The decision is communicated in writing to the appellants, the Cantonal Tax Commission of Schaffhausen, the Obergericht of Schaffhausen and the Swiss Federal Tax Administration."
 2024-04-03;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://07-02-2024-2C_176-2022&lang=fr&zoom=&type=show_document;TRUE;valid page;2C_176/2022;Staatshaftung*;"
       
  
@@ -20410,7 +20879,13 @@ Die Präsidentin:    F. Aubry Girardin 
  
 Der Gerichtsschreiber:    C. Marti 
 
-   "
+   ";"The text is a decision by the Swiss Federal Supreme Court (Bundesgericht) in a case involving a procurement process (Vergabestelle). The court finds that the procurement authority has failed to comply with certain regulations and has caused unnecessary expenses for the plaintiff. As a result, the court grants the plaintiff's request for compensation for these expenses under Article 3(1) of the Federal Act on Administrative Proceedings (VG).
+
+The court also orders the procurement authority to provide the plaintiff with all relevant documents and information regarding the procurement process.
+
+The court costs are split between the parties, with the Swiss Confederation paying 10% and the plaintiff paying 90%.
+
+The decision is published in the Official Gazette of the Swiss Federal Supreme Court."
 2024-04-04;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://07-03-2024-5A_611-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;5A_611/2023;Schuldbetreibungs- und Konkursrecht*;"
       
  
@@ -20613,7 +21088,19 @@ Der Präsident:    Herrmann 
  
 Der Gerichtsschreiber:    Buss 
 
-   "
+   ";"The text is a court decision from the Swiss Federal Supreme Court (Bundesgericht) regarding a bankruptcy proceeding. The decision addresses several points:
+
+1. The court recommends that cantonal supervisory authorities remind bankruptcy administrators of the principles governing the handling of requests for continuation or liquidation, in order to ensure equal treatment.
+2. The court rules that a request for liquidation submitted too early is not invalid, but rather must be rejected by the bankruptcy administrator. In this case, the administrator did not reject the request immediately, but instead gave the debtor time to pay off the debt before proceeding with the liquidation.
+3. The court holds that the administrator's decision not to reject the request does not affect the validity of subsequent steps in the bankruptcy process.
+
+The court concludes that:
+
+* The appeal is rejected
+* The appellant must pay court costs of CHF 5,000
+* No party compensation is awarded
+* The request for provisional payment of party compensation is dismissed as moot
+* A copy of the decision will be sent to the parties involved and the Obergericht des Kantons Zürich (the supreme cantonal authority for bankruptcy and insolvency)."
 2024-04-10;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://23-02-2024-2C_79-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;2C_79/2023;Construction des routes et circulation routière*;"
       
  
@@ -21195,7 +21682,22 @@ La Présidente :    F. Aubry Girardin 
  
 Le Greffier :    H. Rastorfer 
 
-   "
+   ";"Here is a summary of the text:
+
+The Swiss Federal Tribunal (Tribunal fédéral) has ruled on a case involving a professional driver's card and the classification of limousine drivers. The main points are:
+
+1. The court upheld the distinction between taxi drivers, who have more rights to use public spaces, and VTC (Vehicle for Hire) drivers, who do not.
+2. The court found that there was no justification for creating a third category of driver's card specifically for limousine drivers, as their activities are similar to those of VTC drivers.
+3. The court rejected the argument that there is an inequality of treatment between competitors (in this case, taxi and VTC drivers) because limousine drivers are treated similarly to VTC drivers.
+4. As a result, the court partially admitted the appeal, annulled certain articles of the Transportation Act, and confirmed the original judgment.
+
+The court also decided on the costs of the proceedings:
+
+1. The recourant (appellant) will pay two-thirds of the costs, while the canton of Geneva will not have to pay any.
+2. The recourant will receive a reduced indemnity as compensation for their expenses.
+3. The case will be sent back to the Court of Justice for it to rule on the costs and expenses of the previous procedure.
+
+The decision was communicated to various parties, including the mandatary (agent) of the recourant, the authorities, the Chamber Constitutionnelle de la Cour de justice, and the Secrétariat général du Département fédéral de l'environnement."
 2024-04-10;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://21-03-2024-6B_1143-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;6B_1143/2023;Infractions*;"
       
  
@@ -21487,7 +21989,14 @@ La Présidente :    Jacquemoud-Rossari 
  
 La Greffière :    Thalmann 
 
-   "
+   ";"The text is a judgment of the Swiss Federal Tribunal (Tribunal Fédéral) in a case involving a traffic violation. The main points are:
+
+1. The Canton of Vaud had issued a fine to the defendant for making excessive noise while driving a vehicle.
+2. The Federal Tribunal ruled that the Canton's regulation violated the federal law on road traffic (Loi sur le trafic routier, LCR) because it regulated conduct that was already prohibited by federal law.
+3. The Federal Tribunal annulled the fine and reduced the defendant's penalty to 300 francs.
+4. The Federal Tribunal also ruled that the defendant would have to pay part of the costs of the proceedings.
+
+In summary, the judgment is about a traffic violation case where the Canton of Vaud had issued a fine for making excessive noise while driving, but the Federal Tribunal found that this regulation violated federal law and annulled the fine."
 2024-04-11;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://29-02-2024-9C_496-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;9C_496/2023;Öffentliche Finanzen & Abgaberecht*;"
       
  
@@ -21914,7 +22423,23 @@ Der Präsident:    Parrino 
  
 Der Gerichtsschreiber:    Seiler 
 
-   "
+   ";"The text is a decision by the Swiss Federal Tribunal (Bundesgericht) regarding a dispute over tax matters. The main points are:
+
+1. The appeal against the direct federal tax is upheld, and it is declared that the decisions of the cantonal courts are null and void.
+2. The appeal against the canton and municipality taxes is also upheld, and it is ordered to cancel the appealed decision.
+3. It is determined that the canton of Bern does not have unlimited jurisdiction over the appellants for the tax year 2017.
+4. The costs of the federal proceedings are borne by the canton of Bern, which has pursued pecuniary interests.
+5. The canton of Bern must also pay a reasonable compensation to the appellants for the federal proceeding.
+6. The case is remitted to the lower court for new consideration of the procedural costs and damages.
+
+In summary, the Federal Tribunal declares that:
+
+1. The decisions on direct federal tax are null and void.
+2. The appealed decision on canton and municipality taxes is canceled.
+3. The appellants do not fall under unlimited jurisdiction in Bern for the tax year 2017.
+4. The canton of Bern bears the costs of the federal proceedings.
+5. The canton of Bern must pay compensation to the appellants.
+6. The case is remitted to the lower court for new consideration of procedural costs and damages."
 2024-04-11;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://12-03-2024-9C_6-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;9C_6/2023;Berufliche Vorsorge*;"
       
  
@@ -22144,7 +22669,13 @@ Der Präsident:    Parrino 
  
 Die Gerichtsschreiberin:    Keel Baumann 
 
-   "
+   ";"The text is a judgment of the Swiss Federal Supreme Court (Bundesgericht) in a case regarding an invalidity pension. The court rules that the applicant's claim for an early retirement pension due to disability is not admissible, as she has not demonstrated any objective grounds justifying the expansion of the provision on provisional insurance (provisorische Weiterversicherung) to cases like hers.
+
+The court notes that the legislative intention behind this provision was to address specific obstacles in reintegration attempts for retirees, which are different from those faced by individuals who have not yet retired. The applicant's situation is characterized by a lower barrier to reintegration and no equivalent need for protection as retirees do.
+
+The court also rejects the argument that the retroactive award of a reduced or time-limited invalidity pension would be subject to the same rules as revising an existing pension claim under Article 17 ATSG. The court finds that there is no constitutional requirement to apply the provision in this case, and therefore upholds the decision of the lower court.
+
+The judgment concludes by awarding the costs of Fr. 800.- to the applicant, and notifying the parties involved with a written copy of the judgment."
 2024-04-12;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://18-03-2024-6B_17-2022&lang=fr&zoom=&type=show_document;TRUE;valid page;6B_17/2022;Straftaten*;"
       
  
@@ -22400,7 +22931,17 @@ Die Präsidentin:    Jacquemoud-Rossari 
  
 Der Gerichtsschreiber:    Boller 
 
-   "
+   ";"The text is a judgment of the Swiss Federal Court (Bundesgericht) regarding a case involving drug trafficking. The court rules that:
+
+1. The lower court's decision to dismiss the charges due to lack of evidence was incorrect, as the cumulative amount of drugs involved in multiple incidents exceeded the threshold of 18 grams.
+2. The court orders the case to be sent back to the lower court for re-trial.
+
+The judgment also addresses the issue of the defendant's request for free legal aid and determines that:
+
+1. The defendant's request is granted, as they are deemed financially unable to pay for legal representation.
+2. The court awards a lawyer's fee from the federal court's fund.
+
+Overall, the court's decision upholds the principle that multiple instances of drug trafficking can be aggregated to exceed the threshold for criminal liability, and grants free legal aid to the defendant."
 2024-04-16;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://18-03-2024-7B_261-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;7B_261/2023;Straf- und Massnahmenvollzug*;"
       
  
@@ -22719,7 +23260,11 @@ Der Präsident:    Abrecht 
  
 Der Gerichtsschreiber:    Caprara 
 
-   "
+   ";"The Swiss Federal Court (Bundesgericht) has ruled in favor of a defendant who was sentenced to a partially suspended sentence of 36 months, with 10 months deemed unconditional. The court held that the defendant's sentence satisfied the requirements for electronic monitoring under Article 79b Abs. 1 lit. a StGB.
+
+The court disagreed with previous Bundesgericht decisions and ruled that the relevant time frame for determining the maximum duration of electronic monitoring is the unconditional part of the sentence, not the total sentence. The court therefore granted the defendant's appeal and sent the case back to the lower court for further proceedings.
+
+As a result, the Canton of Bern was ordered to pay the defendant's lawyer a fee of CHF 3,000 for the federal court proceedings. There were no court costs. The request for free legal assistance and compensation was deemed moot."
 2024-04-16;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://21-03-2024-6B_938-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;6B_938/2023;Infractions*;"
       
  
@@ -23060,7 +23605,15 @@ La Présidente :    Jacquemoud-Rossari 
  
 Le Greffier :    Vallat 
 
-   "
+   ";"Here is a summary of the text:
+
+The Swiss Federal Court has rejected the appeal of a defendant who was convicted of various crimes, including battery and harassment. The court found that the trial judge had taken into account the seriousness of the victim's injuries and the fact that the defendant had committed multiple offenses against them. The court also noted that the defendant had not shown any remorse for his actions.
+
+The defendant had argued that the sentence was too harsh and that the judge had failed to take into account the fact that he did not have a prior criminal record. However, the court found that this was not a sufficient reason to overturn the conviction or reduce the sentence.
+
+The court also rejected the defendant's claim that he should be granted a suspended sentence due to his lack of previous convictions and his good behavior during the trial.
+
+Finally, the court granted the defendant's request for legal aid and appointed an attorney to represent him. The court also ordered the defendant to pay a fine to support the costs of the attorney's services."
 2024-04-17;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://22-03-2024-2C_174-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;2C_174/2023;Energie*;"
       
  
@@ -23405,7 +23958,13 @@ Die Präsidentin:    F. Aubry Girardin 
  
 Der Gerichtsschreiber:    M. Zollinger 
 
-   "
+   ";"The Swiss Federal Court has ruled in favor of a biogas producer who was seeking a higher feed-in tariff (FIT) for the electricity produced by their facility. The court found that the lower FIT rate applied to non-allowed biomass did not apply, as the facility was considered a hybrid plant.
+
+The court held that Article 16(2) of the Swiss Federal Act on Energy Supply (EnFV) requires the calculation of equivalent power outputs for hybrid plants using the entire production. This means that the court will recalculate the FIT rate based on the total electricity produced, rather than just the amount from renewable energy sources.
+
+The court also rejected the argument that the biogas producer should be required to install separate measurement devices to track the different energy streams. Instead, the court held that the entire production is relevant for calculating the equivalent power outputs.
+
+As a result of the ruling, the case will be sent back to the Pronovo AG (the entity responsible for implementing the EnFV) for recalculation of the FIT rate. The biogas producer will also be required to pay the court costs."
 2024-04-17;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://27-03-2024-8C_523-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;8C_523/2023;Invalidenversicherung*;"
       
  
@@ -23719,7 +24278,16 @@ Der Präsident:    Wirthlin 
  
 Der Gerichtsschreiber:    Wüest 
 
-   "
+   ";"The text is a decision by the Swiss Federal Tribunal (Bundesgericht) in a case involving the Invalidity Insurance (IV-Stelle) and a family who established a company (B.________ GmbH) to provide assistance to their child with special needs.
+
+The main points of the decision are:
+
+1. The family's company is not considered an employer in the sense of the IV-Stelle, as it does not have its own employees but rather outsources the services to assistants.
+2. Therefore, the assistance provided by these assistants cannot be covered by the IV-Stelle's funding.
+3. The family had previously received reimbursement from the IV-Stelle for assistance provided by these assistants, but this was a one-time exception and not a precedent for future claims.
+4. The family has no right to continue receiving reimbursement for these services, as they are not being provided by employees of the company (B.________ GmbH) but rather by independent contractors.
+
+The decision rejects the family's appeal against an earlier ruling by the cantonal court (Verwaltungsgericht des Kantons Schwyz). The family is required to bear the costs of the proceedings (Fr. 500.-)."
 2024-04-17;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://28-03-2024-1C_584-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;1C_584/2023;Procédure administrative*;"
       
  
@@ -23884,7 +24452,15 @@ Le Président :    Kneubühler 
  
 Le Greffier :    Kurz 
 
-   "
+   ";"Here is a summary of the text:
+
+The Federal Supreme Court (Bundesgericht) ruled on an appeal regarding the protection of interests worthy of protection in a civil procedure. The court emphasized that, according to Article 156 of the Civil Procedure Code (CPC), the judge must order measures to prevent harm to parties' or third parties' interests worthy of protection during the administration of evidence.
+
+The court noted that these measures can include limiting access to files, redacting documents, or obliging parties to keep secrets and threatened with sanctions. The judge has a wide range of discretion in this regard, taking into account the specific circumstances of each case.
+
+In this case, the court rejected the appeal and ordered the appellant to pay the costs of CHF 2,000. The court also informed various authorities, including the Data Protection Authority and the Court of Administrative Law of the Canton of Vaud.
+
+Overall, the ruling emphasizes the importance of protecting parties' and third parties' interests worthy of protection during civil procedures in Switzerland."
 2024-04-17;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://02-04-2024-9C_591-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;9C_591/2023;Öffentliche Finanzen & Abgaberecht*;"
       
  
@@ -24199,7 +24775,15 @@ Der Präsident:    Parrino 
  
 Der Gerichtsschreiber:    Seiler 
 
-   "
+   ";"The text is a judgment by the Swiss Federal Tribunal (Bundesgericht) in a case involving double taxation and the correct tax assessment of a company. The key points are:
+
+1. The Canton Appenzell Ausserrhoden had incorrectly taxed the company, and the Federal Tribunal annulled the tax assessments for the periods 2011/12 to 2018/19.
+2. The company was not entitled to deductions in the Canton St. Gallen, and therefore the Canton Appenzell Ausserrhoden was justified in taxing the company's income.
+3. The company had made false statements in its tax returns, which meant that it did not have a legitimate interest in retaining the taxes paid to the Canton Appenzell Ausserrhoden.
+4. The Federal Tribunal ordered the Canton Appenzell Ausserrhoden to refund the taxes paid by the company, and also imposed a fine on the company for its false statements.
+5. The company was also required to pay costs of CHF 3'500.- to the Canton St. Gallen, and a separate payment of CHF 3'200.- to the Canton Appenzell Ausserrhoden as compensation for the unnecessary procedural expenses incurred by the Canton Appenzell Ausserrhoden.
+
+In summary, the Federal Tribunal annulled the tax assessments made by the Canton Appenzell Ausserrhoden, ordered the refund of taxes paid by the company, and imposed fines and costs on the company for its false statements."
 2024-04-18;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://11-03-2024-6B_1323-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;6B_1323/2023;Infractions*;"
       
  
@@ -24720,7 +25304,13 @@ La Présidente :    Jacquemoud-Rossari 
  
 La Greffière :    Musy 
 
-   "
+   ";"Here is a summary of the text:
+
+The Swiss Federal Court rules on a appeal related to public insult, incitement to hatred or violence, and defamation. The court holds that the penalty imposed by the cantonal court, a 40-day prison sentence, does not violate federal law. Additionally, the court rules that the principle of aggravation (Article 49 of the Swiss Criminal Code) does not apply in this case, as the penalties for different types of offenses (defamation and discrimination) should be served cumulatively.
+
+The court partially admits the appeal and reformulates the judgment, confirming the conviction to a pecuniary penalty for defamation and a prison sentence for discrimination. The rest of the appeal is rejected. The appellant is ordered to pay part of the court costs and receives reduced damages from the canton of Vaud.
+
+The judgment is communicated to the parties, the Appellate Court of the Canton of Vaud, and B________ for information."
 2024-04-18;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://18-03-2024-5A_238-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;5A_238/2023;Erbrecht*;"
       
  
@@ -25137,7 +25727,16 @@ Der Präsident:    Herrmann 
  
 Die Gerichtsschreiberin:    Lang 
 
-   "
+   ";"The text is a decision by the Swiss Federal Tribunal (Bundesgericht) in a case involving the recognition of paternity and inheritance rights. The court concludes that:
+
+1. The appeal is rejected, as the applicant has failed to demonstrate a violation of Article 13a of the Swiss Code of Obligations or Article 8 of the European Convention on Human Rights.
+2. The court finds that the applicant's biological relationship with the deceased is not sufficient to establish an inheritance claim, and that the Swiss Federal Tribunal has already clarified this point in previous decisions.
+3. The court rejects the applicant's argument that the failure to recognize his paternity is a violation of Article 8 of the European Convention on Human Rights, as there is no evidence of discrimination or bias in the decision-making process.
+
+The court also decides:
+
+1. The applicant will be responsible for the costs of CHF 10,000.
+2. The decision will be notified to the parties and the Obergericht des Kantons Aargau, Zivilgericht, 2. Kammer."
 2024-04-19;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://13-03-2024-6B_393-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;6B_393/2023;Infractions*;"
       
  
@@ -25533,7 +26132,11 @@ La Présidente :    Jacquemoud-Rossari 
  
 Le Greffier :    Tinguely 
 
-   "
+   ";"The text is a summary of a court decision by the Federal Tribunal of Switzerland. The case involves a request to assist in suicide, and the court's ruling on whether this act should be punishable under Swiss law.
+
+In essence, the court concludes that the current legal framework does not provide a clear basis for punishing assistance in suicide, and therefore, it is not possible to convict someone for providing such assistance without a specific change in the law. The court notes that while some organizations of medical professionals have developed ethical guidelines on this issue, there is no consensus on the matter.
+
+The court further states that any changes to the legal framework would require a broader consideration of the ethical and moral implications of assisted suicide, rather than relying on an overly broad interpretation of existing laws. Finally, the court rules that the case should be rejected, without awarding any fees or costs to either party."
 2024-04-22;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://21-03-2024-7B_172-2022&lang=fr&zoom=&type=show_document;TRUE;valid page;7B_172/2022;Strafprozess*;"
       
  
@@ -25819,7 +26422,15 @@ Der Präsident:    Abrecht 
  
 Der Gerichtsschreiber:    Caprara 
 
-   "
+   ";"The text is a court decision by the Swiss Federal Tribunal (Bundesgericht) regarding a appeal against a previous judgment. Here's a summary of the main points:
+
+1. The appellants, G.________ AG and Bundesgericht (Swiss Federal Court), argue that there was no sufficient evidence to establish a reasonable suspicion of money laundering.
+2. The court notes that the prosecution has presented circumstantial evidence suggesting that the defendants may have engaged in fraudulent activities.
+3. The court rejects the argument that the prosecution must provide detailed evidence of all elements of the crime, stating that it is sufficient to show a reasonable suspicion based on one aspect of the alleged money laundering activity (in this case, suspicious financial transactions).
+4. The court concludes that there was no sufficient reason to reject the appeal and sends the case back to the lower court for further investigation.
+5. The appellants are awarded costs of CHF 2'000, while no compensation is awarded to the other parties.
+
+In summary, the court upholds the appeal and remands the case back to the lower court for further investigation, finding that there was a reasonable suspicion of money laundering based on circumstantial evidence."
 2024-04-24;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://18-03-2024-8C_438-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;8C_438/2023;Assicurazione contro la disoccupazione*;"
       
  
@@ -26231,7 +26842,13 @@ Il Presidente:    Wirthlin 
  
 Il Cancelliere:    Colombi 
 
-   "
+   ";"The text is a judgment by the Federal Tribunal of Switzerland, regarding a dispute between a Cassa (an insurance company) and an opponent. The judgment concerns the interpretation of Article 13 of the Swiss Pension Fund Act (LPTD).
+
+The Court found that the Ticino cantonal court correctly applied the relevant provisions regarding renunciation of assets, distinguishing between alienation and excessive expenditure. The Cassa's criticism of the cantonal court's decision is rejected, as it is based on an overly broad interpretation of Article 13 cpv. 2 LPTD.
+
+The Court also found that the opponent did not provide sufficient evidence to justify a reduction in their assets, and therefore, it was reasonable for the cantonal court to presume renunciation of assets. The Cassa's criticism of the cantonal court's evaluation of the evidence is also rejected, as it failed to specify which factual elements or documents would support a different conclusion.
+
+The judgment concludes that the appeal must be rejected, and the costs of the proceedings are awarded to the Cassa, since they have a financial interest in the case. The opponent, who did not have a lawyer, does not have the right to recover legal fees (art. 68 LTF)."
 2024-04-24;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://18-03-2024-9C_65-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;9C_65/2023;Krankenversicherung*;"
       
  
@@ -26654,7 +27271,15 @@ Der Präsident:    Parrino 
  
 Die Gerichtsschreiberin:    Fleischanderl 
 
-   "
+   ";"The text is a decision of the Swiss Federal Court (Bundesgericht) in a case involving a dispute between two parties. The court's summary of its decision can be broken down into four main points:
+
+1. The court dismissed the appeal filed by one party, finding that the lower court's judgment was correct and well-reasoned.
+
+2. The court rejected claims that the lower court failed to properly consider expert opinions submitted by the parties. It noted that the lower court had thoroughly reviewed the case and taken into account the opinions of two experts.
+
+3. The court also dismissed claims that the lower court had violated the right to a hearing (Art. 29 Abs. 2 BV) or had not adequately addressed the parties' arguments. It found that the lower court's decision was well-reasoned and did not unfairly disregard any of the parties' submissions.
+
+4. As a result, the court awarded costs to the other party and ordered the appealing party to pay a portion of those costs as compensation for the appellate process. The court also notified the parties, the Swiss Court for Social Insurance Matters (Schiedsgericht in Sozialversicherungssachen des Kantons Basel-Stadt), and the Federal Office of Public Health (Bundesamt für Gesundheit) of its decision."
 2024-04-26;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://02-04-2024-5A_122-2024&lang=fr&zoom=&type=show_document;TRUE;valid page;5A_122/2024;Droit des poursuites et faillites*;"
       
  
@@ -26883,7 +27508,13 @@ Le Président :    Herrmann 
  
 Le Greffier :    Piccinin 
 
-   "
+   ";"The text is a judgment of the Swiss Federal Court (Tribunal Fédéral) regarding a bankruptcy case. The court rules that a creditor can challenge a bankruptcy decision declared at the debtor's request, even if it appears to be an abuse of right.
+
+The court holds that since 2014, when the Bankruptcy Act was modified, any creditor is entitled to appeal against a stay of execution granted in the context of a debt settlement procedure under Articles 333-ss LP. This means that the principle that a third-party creditor cannot challenge a bankruptcy decision declared at the debtor's request, even if it appears to be an abuse of right, no longer applies.
+
+The court also rules that the appeal is not receivable because the appellant's arguments are mere allegations and do not provide sufficient evidence to demonstrate that the lower court's decision was arbitrary. The court rejects the appeal and orders the appellant to pay the costs of the appeal.
+
+In summary, the judgment holds that a creditor can challenge a bankruptcy decision declared at the debtor's request, even if it appears to be an abuse of right, and that the appeal is not receivable because the arguments presented are insufficient."
 2024-05-01;https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza://10-04-2024-8C_434-2023&lang=fr&zoom=&type=show_document;TRUE;valid page;8C_434/2023;Unfallversicherung*;"
       
  
@@ -27269,4 +27900,13 @@ Der Präsident:    Wirthlin 
  
 Der Gerichtsschreiber:    Wüest 
 
-   "
+   ";"The Swiss Federal Court (Bundesgericht) has issued a decision in two cases (8C_434/2023 and 8C_436/2023). The court found that the first instance court, the Canton of Thurgau's Administrative Court, had breached federal law by not considering the uncertainty surrounding the accident and the insurance company's responsibility. Therefore, the case is being sent back to the first instance court for a new decision.
+
+The court also ruled that:
+
+1. The two cases are being combined.
+2. The appeals from the insured person and Suva (the Swiss Accident Insurance Fund) are partly successful, and the decision of the Canton of Thurgau's Administrative Court is being set aside.
+3. The court costs amounting to CHF 3,800 will be split between the parties: CHF 400 for the insured person and CHF 3,400 for Suva.
+4. Suva must pay the insured person CHF 1,400 in compensation for the federal court proceedings.
+
+The decision was communicated to the parties involved, including Suva, the Canton of Thurgau's Administrative Court, and the Federal Office for Public Health."

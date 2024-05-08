@@ -8,7 +8,7 @@ get_TF_decision <- function(date_start = date_start,
                             date_end = date_end,
                             publication_filter = publication_filter, 
                             delay = delay 
-                            ){
+){
   
   cat("Starting...\n")  
   
@@ -156,8 +156,9 @@ get_summary <- function(i = i, df = df, model = "llama3",screen = F) {
   text <- df1$decision
   
   question <- paste0("Summarize the following text:",text)
+  cat(paste0("Decision ",i,"/",nrow(df)," ... \n  "))
   summary_text <- rollama::query(q = question,model = model,screen = screen)$message$content
-
+  
   table <- df1 %>% mutate(summary = summary_text)
   
   return(table)

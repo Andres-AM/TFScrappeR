@@ -100,7 +100,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#|echo: false</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co">#|include: false</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">source</span>(<span class="st">"libraries.R"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">source</span>(<span class="st">"libraries.R"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
@@ -124,28 +125,28 @@ The following object is masked from 'package:readr':
 Loading required package: parallel</code></pre>
 </div>
 <div style="page-break-after: always;"></div>
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">read_delim</span>(<span class="st">"data/results.csv"</span>, <span class="at">delim =</span> <span class="st">";"</span>,<span class="at">show_col_types =</span> F)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">read_delim</span>(<span class="st">"data/240508_results.csv"</span>, <span class="at">delim =</span> <span class="st">";"</span>,<span class="at">show_col_types =</span> F)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>df1 <span class="ot">&lt;-</span> df <span class="sc">%&gt;%</span> </span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">slice</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>The text is a judgment of the Swiss Federal Supreme Court (Bundesgericht) regarding a social welfare case. The court ruled that:
-
-1. The beneficiary's decision to receive early pension benefits did not violate the principle of supplementary protection, which aims to ensure that individuals do not prematurely deplete their retirement savings.
-2. The social welfare authority was wrong to assume that the beneficiary could have received his full retirement savings at age 60, when in reality he would have exhausted them by then.
-3. As a result, the beneficiary's decision to receive early pension benefits from April 2019 to March 2022 did not violate any regulations or principles.
-4. The court rejected the social welfare authority's claim that the beneficiary should have received his full retirement savings at age 60 and instead ordered that the authority pay back Fr. 77,671.80.
-5. The court also ruled that if the beneficiary were to receive his full retirement savings in the future, any potential demand for repayment based on Article 13 of the Social Insurance Act would need to be re-examined.
-
-The court's judgment was as follows:
-
-* The appeal is granted and the cantonal court's decision is overturned.
-* The costs of Fr. 4,500 will be borne by the social welfare authority.
-* The social welfare authority will also pay Fr. 2,800 in compensation to the beneficiary's lawyer for their work on this case.
-* The case is referred back to the cantonal court to re-determine the costs and fees of the previous proceedings.
-* The decision will be communicated in writing to the parties involved, the Cantonal Court of Basel-Landschaft, the Department of Constitutional and Administrative Law, and the Government Council of the Canton of Basel-Landschaft.</code></pre>
-</div>
-</div>
-<p>The <code>echo: false</code> option disables the printing of code (only output is displayed).</p>
+<section id="a_1212023" class="level2">
+<h2 class="anchored" data-anchor-id="a_1212023">4A_121/2023</h2>
+<p>Reference: 4A_121/2023 Topic: Vertragsrecht* Date:2024-01-03 Summary: The text is a decision by the Swiss Federal Court (Bundesgericht) regarding a rent dispute. The court concludes that the initial rent of CHF 1’060.- per month for a two-room apartment in Zurich was not excessive and therefore valid.</p>
+<p>The court’s reasoning is as follows:</p>
+<ul>
+<li>The court notes that the plaintiff had argued that the initial rent was excessive, but did not provide evidence to support this claim.</li>
+<li>The court rules that the burden of proof lies with the plaintiff to demonstrate that the initial rent was excessive.</li>
+<li>Since the plaintiff did not provide any evidence, the court concludes that the initial rent is valid.</li>
+</ul>
+<p>The court also orders:</p>
+<ul>
+<li>The plaintiff to pay CHF 2’000.- in court costs.</li>
+<li>The defendant to pay CHF 2’500.- in compensation for the costs of the federal court proceedings.</li>
+<li>The case is sent back to the cantonal court (Obergericht) to decide on the costs and compensation for the previous proceedings.</li>
+</ul>
+<p>Overall, the court’s decision supports the initial rent and rejects the plaintiff’s claim that it was excessive.</p>
+</section>
 
 </main>
 <!-- /main column -->
