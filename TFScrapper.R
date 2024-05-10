@@ -38,3 +38,7 @@ write_csv2(results_summarized,"data/results.csv")
 
 rm(list = ls()); gc()
 
+
+# test --------------------------------------------------------------------
+
+rollama::query(q = "",model = "llama3",screen = T)
