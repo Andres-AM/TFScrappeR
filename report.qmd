@@ -1,19 +1,21 @@
 ---
 title: "Report"
-format: html
-
+format:
+  html:
+    toc: true
 ---
 
 ```{r}
 #|echo: false
 #|include: false
-
+#|warning: false
 
 source("libraries.R")
-df <- read_delim("data/240508_results.csv", delim = ";",show_col_types = F)
+dfr <- read_delim("data/240508_results.csv", delim = ";",show_col_types = F)
 
-df1 <- df %>% 
-  slice(1:10)
+df1 <- dfr %>%
+  # slice(1:10) %>% 
+  arrange(type)
 
 ```
 
@@ -21,18 +23,30 @@ df1 <- df %>%
 ```{r}
 #| echo: false
 #| results: asis
+ 
+print_decision <- function(i = i, df = df) {
+  
+  df_table <- df[i,]
+  
+    cat(paste0("# ",df_table$type,"\n\n"))
 
-df2 <- df1[1,]
+  
+  cat(paste0("## ",df_table$reference,"\n\n"))
+  
+  
+  cat("  \n\n  ")
+  
+  cat(paste0("\n\nReference: ",df_table$reference,
+             "\n\nTopic: ",df_table$type,
+             "\n\nDate: ",df_table$date,
+             "\n\nSummary: ",df_table$summary,
+             "\n\n"))
+  
+}
 
-cat(paste0("## ",df2$reference,"\n"))
-
-cat("\n ")
-
-cat(paste0("Reference: ",df2$reference,
-           "\nTopic: ",df2$type,
-           "\nDate:",df2$date,
-           "\nSummary: ",df2$summary,
-           "\n"))
+a <- map(.x = 1:nrow(df1),
+    .f = print_decision,
+    df = df1)
 
 
 ```
