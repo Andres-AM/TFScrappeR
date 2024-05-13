@@ -8,9 +8,6 @@ This web scraping tool is designed to retrieve the most recent case laws from th
 
 Link for an interactive version:   [TFScrapper](https://andres-am.shinyapps.io/TFScrappeR/)
 
-![Alt text](preview.png)
-
-
 ## Dependencies
 
 This project relies on the following R packages:
