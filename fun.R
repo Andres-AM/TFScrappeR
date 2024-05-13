@@ -159,7 +159,16 @@ get_summary <- function(i = i, df = df, model = "llama3",screen = F) {
   cat(paste0("Decision ",i,"/",nrow(df)," ... \n  "))
   summary_text <- rollama::query(q = question,model = model,screen = screen)$message$content
   
-  table <- df1 %>% mutate(summary = summary_text)
+  table <- df1 %>% 
+    mutate(
+      summary = summary_text, 
+      language = case_when( 
+        str_detect(decision,"Urteil")   ~ "DE",
+        str_detect(decision,"Arrêt")    ~ "FR",
+        str_detect(decision,"Sentenza") ~ "IT",
+        TRUE                            ~ "No language found"
+      )
+    )
   
   return(table)
   

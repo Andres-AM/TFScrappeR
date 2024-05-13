@@ -1,53 +1,112 @@
 ---
-title: "Report"
+title: "Swiss Federal Tribunal case laws summary"
 format:
   html:
     toc: true
 ---
-
+ 
 ```{r}
-#|echo: false
-#|include: false
-#|warning: false
+#| echo: false
+#| include: false
 
 source("libraries.R")
+
 dfr <- read_delim("data/240508_results.csv", delim = ";",show_col_types = F)
 
+## To add to script
+dfr <- dfr %>% 
+  mutate( language = case_when( 
+    str_detect(decision,"Urteil") ~ "DE",
+    str_detect(decision,"Arrêt") ~ "FR",
+    str_detect(decision,"Sentenza") ~ "IT",
+    TRUE ~ "No language found",
+  ),
+  url = paste0("<a href=",url,">","link","</a>"),
+  topic = type
+  )
+
 df1 <- dfr %>%
-  # slice(1:10) %>% 
-  arrange(type)
+  slice(1:10) %>%
+  select(date,language,topic,reference,summary,url) %>% 
+  arrange(topic)
 
 ```
 
 
 ```{r}
 #| echo: false
-#| results: asis
- 
+#| results: "asis"
+
 print_decision <- function(i = i, df = df) {
   
   df_table <- df[i,]
   
-    cat(paste0("# ",df_table$type,"\n\n"))
-
+  cat(paste0("## ",df_table$topic,"\n\n"))
   
-  cat(paste0("## ",df_table$reference,"\n\n"))
-  
-  
-  cat("  \n\n  ")
+  cat(paste0("### ",df_table$reference,"\n\n"))
   
   cat(paste0("\n\nReference: ",df_table$reference,
-             "\n\nTopic: ",df_table$type,
+             "\n\nTopic: ",df_table$topic,
              "\n\nDate: ",df_table$date,
+             "\n\nUrl: ", df_table$url,
+             "\n\nLanguage: ",df_table$language,
              "\n\nSummary: ",df_table$summary,
              "\n\n"))
-  
 }
 
 a <- map(.x = 1:nrow(df1),
-    .f = print_decision,
-    df = df1)
+         .f = print_decision,
+         df = df1)
 
+
+arguments <- list(df = df1)
+language <- c("FR","DE","IT")
+topic <- c(unique(dfr$topic))
+vec <- 1:nrow(df1)
+
+per_language <- function(df, j = j){
+  
+  df1 <- df %>% 
+    filter(language == j)
+  
+}
+b <- map(
+  list(language,vec),
+  test_fun
+  # .l = arguments
+)
+
+b
+
+```
+
+
+
+
+```{r}
+
+
+
+# Create a data frame with 20 rows as per your specifications
+data <- data.frame(
+  language = sample(c("FR", "DE", "IT"), 20, replace = TRUE),
+  topic = sample(c("A", "B", "C", "D"), 20, replace = TRUE),
+  value = sample(1:100, 20, replace = TRUE)
+)
+
+# Arrange the data by language and topic
+data <- data %>% arrange(language, topic)
+
+# Group the data by language and topic, then concatenate the values within each group
+result <- data %>%
+  group_by(language, topic) %>%
+  summarize(values = paste(value, collapse = ", ")) %>%
+  ungroup()
+
+# Display the result
+print(result)
+
+data
 
 ```
 
