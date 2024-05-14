@@ -10,6 +10,8 @@ library(rvest)
 library(pbmcapply)
 library(parallel)
 library(rollama)
+library(shinydashboard)
+library(shiny)
 
 ## Other settings 
 theme_set(theme_bw())
