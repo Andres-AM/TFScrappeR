@@ -17,25 +17,51 @@ dfr <- read_delim("data/240508_results.csv", delim = ";",show_col_types = F)
 
 ## To add to script
 dfr <- dfr %>% 
-  mutate( language = case_when( 
+  mutate( language = as.factor(case_when( 
     str_detect(decision,"Urteil") ~ "Deutsch",
     str_detect(decision,"Arrêt") ~ "Français",
     str_detect(decision,"Sentenza") ~ "Italiano",
     TRUE ~ "No language found",
-  ),
-  url = paste0("<a href=",url,">","link","</a>"),
-  topic = type
+  )),
+  reference = paste0("<a href=",url,">",reference,"</a>"),
+  topic = as.factor(type)
   )
 
 df1 <- dfr %>%
-  select(date,language,topic,reference,summary,url) %>% 
+  select(date,language,topic,reference,summary) %>% 
+  select(-summary) %>% 
+  # slice(1:10) %>% 
   arrange(language,topic)
+
+
+
 
 ```
 
 # Introduction
 
 Summary of Swiss Federal Tribunal case laws grouped by language.
+
+```{r}
+#| results: "asis"
+#| echo: false
+
+t <- df1 %>% 
+  # select(-summary) %>% 
+  DT::datatable(
+    # colnames = c("date","score","likes_count","replies_count","tweet","URL"),
+    options = list(paging = F, 
+                   pageLength = 10,
+                   dom = "t",
+                   scrollY = TRUE),
+    rownames = FALSE,
+    filter = 'top',
+    escape = F)
+
+t
+
+```
+
 
 
 ```{r}
@@ -71,10 +97,10 @@ print_decision <- function(i = i, df = df) {
   )
 }
 
-a <- map(.x = 1:nrow(df1),
-         .f = print_decision,
-         df = df1
-         )
+# a <- map(.x = 1:nrow(df1),
+#          .f = print_decision,
+#          df = df1
+#          )
 
 ```
 
