@@ -1,5 +1,5 @@
 ---
-title: "Swiss Federal Tribunal case laws summary"
+title: "Swiss Federal Tribunal case laws summary (published)"
 format:
   html:
     toc: true
@@ -49,17 +49,16 @@ Summary of Swiss Federal Tribunal case laws grouped by language.
 t <- df1 %>% 
   # select(-summary) %>% 
   DT::datatable(
-    # colnames = c("date","score","likes_count","replies_count","tweet","URL"),
-    options = list(paging = F, 
-                   pageLength = 10,
-                   dom = "t",
-                   scrollY = TRUE),
+    options = list(
+      # paging = F, 
+      # pageLength = 10,
+      dom = "t",
+      scrollY = TRUE),
     rownames = FALSE,
-    filter = 'top',
+    filter = "top",
     escape = F)
 
 t
-
 ```
 
 
