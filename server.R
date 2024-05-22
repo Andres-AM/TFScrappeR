@@ -5,7 +5,7 @@ source("fun.R")
 
 server <- function(input, output,session) {
   
-  data <- reactive({
+  data_table <- reactive({
     
     inFile <- input$input_table
     
@@ -28,8 +28,11 @@ server <- function(input, output,session) {
     
   })
   
+  shared_data <- SharedData$new(data_table)
+  
+  
   output$table_output <- DT::renderDataTable(
-    data() |>  select(-summary),
+    shared_data,
     options = list(
       paging = F,
       pageLength = 10,
@@ -37,10 +40,10 @@ server <- function(input, output,session) {
       scrollY = TRUE),
     rownames = FALSE,
     filter = "top",
-    escape = F)
+    escape = F,server = F)
   
   output$table_output_summary <- DT::renderDataTable(
-    data() |>  select(summary),
+    shared_data$summary,
     options = list(
       paging = F,
       pageLength = 10,
@@ -48,7 +51,7 @@ server <- function(input, output,session) {
       scrollY = TRUE),
     rownames = FALSE,
     filter = "top",
-    escape = F)
+    escape = F,server = F)
 }
 
 

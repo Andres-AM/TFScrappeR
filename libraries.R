@@ -12,6 +12,7 @@ library(parallel)
 library(rollama)
 library(shinydashboard)
 library(shiny)
+library(crosstalk)
 
 ## Other settings 
 theme_set(theme_bw())
