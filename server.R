@@ -9,77 +9,46 @@ server <- function(input, output,session) {
     
     inFile <- input$input_table
     
-    if (is.null(inFile))
-      return(NULL)
+    if (is.null(inFile)) inFile$datapath <- "data/240508_results.csv"
     
-    table <- read_delim(file = inFile$datapath, delim = ";",show_col_types = F) %>% 
-      mutate( language = case_when( 
-        str_detect(decision,"Urteil") ~ "DE",
-        str_detect(decision,"Arrêt") ~ "FR",
-        str_detect(decision,"Sentenza") ~ "IT",
+    table <- read_delim(file = inFile$datapath, delim = ";",show_col_types = F) |> 
+      mutate( language = as.factor(case_when( 
+        str_detect(decision,"Urteil") ~ "Deutsch",
+        str_detect(decision,"Arrêt") ~ "Français",
+        str_detect(decision,"Sentenza") ~ "Italiano",
         TRUE ~ "No language found",
-      ),
-      url = paste0("<a href=",url,">","link","</a>"),
-      topic = type
-      ) %>%
-      select(date,language,topic,reference,summary,url) %>% 
-      arrange(topic)
-    
-    
-    updateSelectInput(session = session, 
-                      inputId = "language", 
-                      choices = table$language
-    )
-    
-    
-    updateSelectInput(session = session,
-                      inputId = "topic",
-                      choices = table$topic
-    )
-    
+      )),
+      reference = paste0("<a href=",url,">",reference,"</a>"),
+      topic = as.factor(type)
+      ) |> 
+      select(date,language,topic,reference,summary) |> 
+      arrange(language,topic)
+
     return(table)
     
   })
   
-  data_filtered <- reactive({
-
-    table <- data()
-    
-    if (!is.null(input$language) && input$language != "")
-      filteredTable <- filter(filteredTable, language == input$language)
-    
-    if (!is.null(input$topic) && input$topic != "")
-      filteredTable <- filter(filteredTable, topic == input$topic)
-    
-    table <- table %>% 
-      dplyr::filter( language == input$language )
-    
-    
-    table <- table %>%
-      dplyr::filter( topic == input$topic)
-    
-    return(table)
-    
-  })
+  output$table_output <- DT::renderDataTable(
+    data() |>  select(-summary),
+    options = list(
+      paging = F,
+      pageLength = 10,
+      dom = "t",
+      scrollY = TRUE),
+    rownames = FALSE,
+    filter = "top",
+    escape = F)
   
-
-  # table_reac <- eventReactive(input$action_button,{
-  # 
-  #   results <- get_TF_decision(
-  #     date_start = date(input$date_range[1]),
-  #     date_end =  date(input$date_range[2]),
-  #     publication_filter = input$publication_filter,
-  #     delay = input$delay 
-  #     )
-  #   
-  #   # updateSelectInput(session, "subcategories", choices = results$decision$reference)
-  #   
-  #   return(results )
-  # 
-  # })
-  
-  output$table_output <- DT::renderDataTable(data_filtered())
-
+  output$table_output_summary <- DT::renderDataTable(
+    data() |>  select(summary),
+    options = list(
+      paging = F,
+      pageLength = 10,
+      dom = "t",
+      scrollY = TRUE),
+    rownames = FALSE,
+    filter = "top",
+    escape = F)
 }
 
 
