@@ -42,10 +42,12 @@ server <- function(input, output,session) {
   output$table_output <- DT::renderDataTable(
     shared_data2,
     options = list(
-      paging = F,
-      pageLength = 10,
-      dom = "t",
-      scrollY = TRUE),
+      paging = T,
+      # info = FALSE,
+      pageLength = 15,
+      # dom = "t"
+      scrollY = TRUE
+      ),
     rownames = FALSE,
     filter = "top",
     escape = F,

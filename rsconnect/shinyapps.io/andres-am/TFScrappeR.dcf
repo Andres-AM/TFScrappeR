@@ -5,7 +5,7 @@ account: andres-am
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 11728036
-bundleId: 8481610
+bundleId: 8651673
 url: https://andres-am.shinyapps.io/TFScrappeR/
 version: 1
 asMultiple: FALSE
