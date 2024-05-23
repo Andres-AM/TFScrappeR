@@ -2,4 +2,4 @@
 *.js linguist-detectable=false
 *.R linguist-detectable=true
 *.css linguist-detectable=false
-*.scc linguist-detectable=false
+*.scss linguist-detectable=false
