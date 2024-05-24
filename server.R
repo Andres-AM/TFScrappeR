@@ -7,12 +7,15 @@ server <- function(input, output,session) {
   
   data_table <- reactive({
     
-    inFile <- input$input_table
+    con <- dbConnect(RSQLite::SQLite(), dbname = "data/db/my_db.sqlite")
     
-    if (is.null(inFile)) inFile$datapath <- "data/240508_results.csv"
+    data <- as_tibble(dbGetQuery(con, "SELECT * FROM my_table"))  
     
-    table <- read_delim(file = inFile$datapath, delim = ";",show_col_types = F) |> 
+    dbDisconnect(con)
+    
+    table <- data |> 
       mutate( 
+        date = as_date(date),
         language = as.factor(case_when( 
           str_detect(decision,"Urteil") ~ "Deutsch",
           str_detect(decision,"Arrêt") ~ "Français",
@@ -21,20 +24,25 @@ server <- function(input, output,session) {
         reference = paste0("<a href=",url,">",reference,"</a>"),
         topic = as.factor(type)
       ) |> 
-      select(date,language,topic,reference,summary)
+      select(date,language,topic,reference,summary) |> 
+      arrange(desc(date))
     
-    return(table)
+    n_rows <- nrow(table)
+    
+    return(list(table = table, n_rows = n_rows))
     
   })
   
+  output$n_rows <- renderText(data_table()$n_rows)
+  
   shared_data1 <- SharedData$new(
-    reactive({ data_table() |>  select(reference,summary)}) ,
+    reactive({ data_table()$table |>  select(reference,summary)}) ,
     key = ~reference,
     group = "groupdata"
   )
   
   shared_data2 <- SharedData$new(
-    reactive({ data_table() |>  select(-summary)}),
+    reactive({ data_table()$table |>  select(-summary)}),
     key = ~reference,
     group = "groupdata"
   )

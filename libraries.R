@@ -2,17 +2,18 @@
 ## Basic packages 
 library(tidyverse)
 library(lubridate) 
-# library(modelr) 
 
 ## Others 
 library(polite)
 library(rvest)
-# library(pbmcapply)
-# library(parallel)
 library(rollama)
 library(shinydashboard)
 library(shiny)
 library(crosstalk)
+
+## db
+library(DBI)
+library(RSQLite)
 
 ## Other settings 
 theme_set(theme_bw())

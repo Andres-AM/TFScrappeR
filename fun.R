@@ -162,14 +162,24 @@ get_summary <- function(i = i, df = df, model = "llama3",screen = F) {
   table <- df1 %>% 
     mutate(
       summary = summary_text, 
-      language = case_when( 
-        str_detect(decision,"Urteil")   ~ "DE",
-        str_detect(decision,"Arrêt")    ~ "FR",
-        str_detect(decision,"Sentenza") ~ "IT",
-        TRUE                            ~ "No language found"
-      )
+      # language = case_when( 
+      #   str_detect(decision,"Urteil")   ~ "DE",
+      #   str_detect(decision,"Arrêt")    ~ "FR",
+      #   str_detect(decision,"Sentenza") ~ "IT",
+      #   TRUE                            ~ "No language found"
+      # )
     )
   
   return(table)
   
+}
+
+# Creating and updating the db ---------------------------------------------------------------
+
+add_data <- function(con, new_data) {
+  # Ensure the date column is in the correct format
+  new_data$date <- as.character(new_data$date)
+  
+  # Insert new data into the table
+  dbWriteTable(con, "my_table", new_data, append = TRUE, row.names = FALSE,overwrite = TRUE)
 }
