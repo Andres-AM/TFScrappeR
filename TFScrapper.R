@@ -19,16 +19,15 @@ results
 
 ## Writing the output of the functions in a csv table (commented)
 write_csv2(results$decision_table,paste0("data/temp/",today(),"_temp_results.csv"))
-df <- read_delim("data/temp/2024-05-24_temp_results.csv", delim = ";",show_col_types = F)
+df <- read_delim("data/temp/2024-05-23_temp_results.csv", delim = ";",show_col_types = F)
 
 # Summarizing ---------------------------------------------------------------
-
-df <- results$decision_table
 
 system.time(
   results_summarized <- map_dfr(.x = 1:nrow(df),
                                 .f = get_summary,
-                                df = df
+                                df = df,
+                                model = "llama3"
   )
 )[[3]] |> lubridate::dseconds()
 
@@ -38,8 +37,11 @@ rm(list = ls()); gc()
 
 # test --------------------------------------------------------------------
 
-rollama::query(q = "",model = "llama3",screen = T)
-
+rollama::query(q = paste("You are a skilled swiss lawyer and are asked your expertise:",
+                         "based on the following 94 case law summaries, which ones seems the most interesting to present in an oral presentation and interesting from a law perspective",
+                         "give a list of a reason why and the name of the position of the summary  from the list of summaries",
+                         data$summary
+                         ),model = "llama3",screen = T)
 
 # Creating and updating the db ---------------------------------------------------------------
 
